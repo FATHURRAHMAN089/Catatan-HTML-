@@ -92,7 +92,7 @@ ___
 
 **Hasil**:
 
-.![Gambar_30](Assets/IMG_30.jpg)
+![Gambar_30](IMG_30.jpg)
 
 
 # Anatomi Elemen HTML
@@ -100,7 +100,7 @@ ___
 
 **Contoh:**
 
-![Gambar_ahref](Assets/IMG_ahref.jpg)
+![Gambar_ahref](IMG_ahref.jpg)
 
 
 ```html
@@ -109,7 +109,7 @@ ___
 
 **Hasil anatomi HTML**:
 
-![Gambar_00](Assets/IMG_00.jpg)
+![Gambar_00](IMG_00.jpg)
 
 
 
@@ -200,7 +200,7 @@ Tag `<p>` dalam HTML digunakan untuk membuat paragraf Teks,dan dapat memberikan 
 
 **Hasil dari Program**
 >[!faq]- Hasil program tag `<P>`
->![Gambar_30](Assets/IMG_30.jpg)
+>![Gambar_30](IMG_30.jpg)
 
 
 ___
@@ -227,7 +227,7 @@ ___
 ```
 
 >[!faq]- Hasil program tag `<b>`
->![Gambar_31](Assets/IMG_31.jpg)
+>![Gambar_31](IMG_31.jpg)
 
 
 
@@ -261,7 +261,7 @@ Tag `<u>` digunakan untuk memberikan garis di bawah teks atau menggaris bawahi s
 
 
 >[!faq]- Hasil program tag `<u>`
->![Gambar_35](Assets/IMG_35.jpg)
+>![Gambar_35](IMG_35.jpg)
 
 
 
@@ -287,7 +287,7 @@ ___
 ```
 
 >[!faq]- Hasil program tag `<i>`
->![Gambar_32](Assets/IMG_32.jpg)
+>![Gambar_32](IMG_32.jpg)
 
 
 
@@ -315,7 +315,7 @@ Tag `<br> ` untuk membuat baris baru dan diakhiri dengan tag `</br>`.
 **hasil dari program**
 
 >[!faq]- Hasil program tag `<br>`
->![Gambar_33](Assets/IMG_33.jpg)
+>![Gambar_33](IMG_33.jpg)
 
 ___
 
@@ -349,7 +349,7 @@ Sebuah rumah yang berisikan satu keluarga yaitu,ayah,ibu,dan 3 anaknya.</n>
 **Hasil dari Program**
 
 >[!faq]- Hasil
->![Gambar_34](Assets/IMG_34.jpg)
+>![Gambar_34](IMG_34.jpg)
 
 ___
 ## **Komentar** 
@@ -372,7 +372,7 @@ Html juga mempunyai Tag khusus untuk komentar.Untuk membuat komentar di HTML kit
 
 **Hasil dari Program**
 
-![Gambar_9](Assets/IMG_9.jpg)
+![Gambar_9](IMG_9.jpg)
 
 
 ___
@@ -441,11 +441,11 @@ Ordered list
 
 **Undered list**:
 
-![Gambar_10](Assets/IMG_10.jpg)
+![Gambar_10](IMG_10.jpg)
 
 **Ordered list**:
 
-![Gambar_11](Assets/IMG_11.jpg)
+![Gambar_11](IMG_11.jpg)
 
 
 ___
@@ -460,7 +460,8 @@ Contoh :
 <a href ="halaman_lain.html">klik disini untuk ke halaman lain yang saya buat!</a>
 ```
 
-![Gambar-13](Assets/IMG_12.jpg)
+
+![Gambar-13](IMG_12.jpg)
 
 
 ## Multimedia
@@ -483,12 +484,12 @@ Dalam tag `<img>` terdapat juga atribut `width` dan `height` untuk mengatur ukur
 
 
 >[!faq]- hasil program gambar 
->![Gambar_13](Assets/IMG_13.jpg)
+>![Gambar_13](IMG_13.jpg)
 
 
 
 >[!faq]- screenshot folder 
-![Gambar_14](Assets/IMG_14.jpg)
+![Gambar_14](IMG_14.jpg)
 
 ___
 
@@ -501,7 +502,7 @@ Fitur HTML 5 mencakup dukungan audio dan video asli tanpa memerlukan flash. tag 
 ```
 
 >[!faq]- hasil program `video src`
->![Gambar15](Assets/IMG_15.jpg)
+>![Gambar15](IMG_15.jpg)
 
 
 
@@ -523,7 +524,7 @@ Seperti yang telah dibahas sebelumnya bahwasanya tag `<audio>` merupakan bagian 
 
 
 >[!faq]- Hasil program audio
->![Gambar_16](Assets/IMG_16.jpg)
+>![Gambar_16](IMG_16.jpg)
 
 
 
@@ -547,7 +548,7 @@ width="300" height="600"</iframe>
 
 
 > [!faq]- Hasil program `i frame`
-> ![Gambar_17](Assets/IMG_17.jpg)
+> ![Gambar_17](IMG_17.jpg)
 > 
 
 
@@ -578,7 +579,7 @@ Tabel dalam HTML didefinisikan dengan tag `<table>`.
 
  **hasil program Tabel**:
  
-![Hasil tabel](Assets/IMG_99.jpg)
+![Hasil tabel](IMG_99.jpg)
 
 
 
@@ -658,7 +659,7 @@ Selain itu,terdapat beberapa atribut tabel yang Penting untuk diketahui yaitu:
 
 **Hasil tabel hari & bulan**:
 
-![Gambar_0](Assets/IMG_0.jpg)
+![Gambar_0](IMG_0.jpg)
 
 **Analisis**:
 - `<table Border="5">`:Adalah untuk menentukan tebal dari Border tabelnya.
@@ -954,8 +955,7 @@ https://jagongoding.com/web/php/web-dinamis/membuat-dan-menangani-form/
 
 **Hasil program Form Latihan**:
 
-![Gambar_FORM](Assets/IMG_FORM.jpg)
-
+![Gambar_FORM](IMG_FORM.jpg)
 ## DIV & SPAN
 
 ### Div
@@ -972,7 +972,7 @@ tag `<Div>` merupakan tag yang digunakan untuk membuat layer.
 
 #### Hasil
 
-![Gambar_div](asets/div.jpg)
+![Gambar_div](div.jpg)
 
 
 ### Span
@@ -988,7 +988,7 @@ tag `<Div>` merupakan tag yang digunakan untuk membuat layer.
 
 #### Hasil
 
-![Gambar_span](asets/span.jpg)
+![Gambar_span](span.jpg)
 
 
 
