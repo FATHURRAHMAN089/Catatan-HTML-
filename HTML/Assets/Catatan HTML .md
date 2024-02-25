@@ -35,7 +35,7 @@ ___
 # 2. Deskripsikan html,CSS,Java script dari sebuah rumah 
 
 ## Contoh
-![Gambar_deskripsi](Assets/deskripsi.jpg)
+![Gambar_deskripsi](deskripsi.jpg)
 
 ## DESKRIPSI 
 
