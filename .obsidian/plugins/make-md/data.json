@@ -44,7 +44,10 @@
     "//Assets",
     "//Pengenalan CSS",
     "//HTML",
-    "//HTML/HTML/Assets"
+    "//HTML/HTML/Assets",
+    "//asets",
+    "//Basis Data",
+    "//Basis Data"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

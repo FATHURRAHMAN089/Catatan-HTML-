@@ -35,7 +35,8 @@ ___
 # 2. Deskripsikan html,CSS,Java script dari sebuah rumah 
 
 ## Contoh
-![Gambar_deskripsi](asets/deskripsi.jpg)
+![Gambar_deskripsi](Assets/deskripsi.jpg)
+
 ## DESKRIPSI 
 
 - **HTML** adalah bagian kerangka atau pondasi awal untuk membuat sebuah rumah.
@@ -91,7 +92,7 @@ ___
 
 **Hasil**:
 
-![Gambar_30](Assets/IMG_30.jpg)
+.![Gambar_30](Assets/IMG_30.jpg)
 
 
 # Anatomi Elemen HTML
