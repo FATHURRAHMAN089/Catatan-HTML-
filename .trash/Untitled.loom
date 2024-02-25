@@ -1,0 +1,310 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "c3aa6e51-7090-4c74-9f44-0ce1e80afefc",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Pemain Argentina ",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "04f08001-2584-4e70-85fa-d8f732478fb3",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "No punggung ",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "ba340b97-2953-48d8-813d-27d7a9ada861",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Klub Pemain",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "b36c2356-4039-4f80-a25b-fff8761a4b7f",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Umur ",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "dfc4438a-6cf5-4748-8115-fd58c9ffd9a5",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:05:39.166Z",
+        "lastEditedDateTime": "2024-01-23T02:16:11.475Z",
+        "cells": [
+          {
+            "id": "cde9b5d3-d6df-4e03-b91e-6def18e4a04f",
+            "columnId": "c3aa6e51-7090-4c74-9f44-0ce1e80afefc",
+            "content": "LIONEL MESSI",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "0914b8f5-7935-4187-850b-0df7a1a9b707",
+            "columnId": "04f08001-2584-4e70-85fa-d8f732478fb3",
+            "content": "10",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "1a4a575e-3b93-482f-a0b8-9b9421984338",
+            "columnId": "ba340b97-2953-48d8-813d-27d7a9ada861",
+            "content": "Inter Miami",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "9249c409-2672-4db0-a114-a1088f394f14",
+            "columnId": "b36c2356-4039-4f80-a25b-fff8761a4b7f",
+            "content": "36 ",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "94018dca-a023-44ee-b001-7824538917eb",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:05:54.340Z",
+        "lastEditedDateTime": "2024-01-23T02:16:35.512Z",
+        "cells": [
+          {
+            "id": "4c8b4d4f-bc09-424e-8159-88124a14dd40",
+            "columnId": "c3aa6e51-7090-4c74-9f44-0ce1e80afefc",
+            "content": "R.DE PAUL",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7197d90e-3891-433f-aab0-dee1eca92e61",
+            "columnId": "04f08001-2584-4e70-85fa-d8f732478fb3",
+            "content": "7",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7480c469-1a6d-4b00-af53-1a151c077f24",
+            "columnId": "ba340b97-2953-48d8-813d-27d7a9ada861",
+            "content": "Atletico Madrid ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "1d15f763-e0d1-407c-832a-df5a65499e90",
+            "columnId": "b36c2356-4039-4f80-a25b-fff8761a4b7f",
+            "content": "29",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "3a0de77e-906d-4ef3-9598-05660a0d39f4",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:05:53.133Z",
+        "lastEditedDateTime": "2024-01-23T02:16:32.927Z",
+        "cells": [
+          {
+            "id": "b804cbe8-6d94-400b-9b03-ab61c4f326b5",
+            "columnId": "c3aa6e51-7090-4c74-9f44-0ce1e80afefc",
+            "content": "PAULO DYBALA",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8b2c0ea1-8313-4b05-a09f-152c5bb44a37",
+            "columnId": "04f08001-2584-4e70-85fa-d8f732478fb3",
+            "content": "21",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "472f87a0-5402-48ce-8739-03b512ffe9ad",
+            "columnId": "ba340b97-2953-48d8-813d-27d7a9ada861",
+            "content": "AS Roma",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8284b504-24ca-4374-85fe-e028b4bf66bb",
+            "columnId": "b36c2356-4039-4f80-a25b-fff8761a4b7f",
+            "content": "30",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "4af7473a-a1b6-4f79-9d73-66eda36a4d7e",
+        "index": 3,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:11:27.272Z",
+        "lastEditedDateTime": "2024-01-23T02:16:44.030Z",
+        "cells": [
+          {
+            "id": "44f2ccf0-40e8-459d-b317-b0c24e4f4e41",
+            "columnId": "c3aa6e51-7090-4c74-9f44-0ce1e80afefc",
+            "content": "L.PAREDES",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7d8a0587-38e9-41b1-b67f-7dee219db2c1",
+            "columnId": "04f08001-2584-4e70-85fa-d8f732478fb3",
+            "content": "5",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "9214800e-3252-4951-ada3-bfb9c95426f9",
+            "columnId": "ba340b97-2953-48d8-813d-27d7a9ada861",
+            "content": "AS Roma",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "b965727b-c07f-4848-8dbf-35f0317bad75",
+            "columnId": "b36c2356-4039-4f80-a25b-fff8761a4b7f",
+            "content": "29",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "4e593f8f-1c4f-4fa9-bbc8-f71d7a620aac",
+        "index": 4,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:11:44.038Z",
+        "lastEditedDateTime": "2024-01-23T02:17:13.625Z",
+        "cells": [
+          {
+            "id": "7a7b8d3e-de9a-405d-9a89-2dcdfb85ffaa",
+            "columnId": "c3aa6e51-7090-4c74-9f44-0ce1e80afefc",
+            "content": "E.martinez",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "255727fc-651c-4069-93a4-096a4f14cbe7",
+            "columnId": "04f08001-2584-4e70-85fa-d8f732478fb3",
+            "content": "23",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "2c3b14e6-77b5-4796-bcef-2b82f36f1918",
+            "columnId": "ba340b97-2953-48d8-813d-27d7a9ada861",
+            "content": "Aston Villa",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "5c8b5493-0b45-4614-b482-425c66a684f4",
+            "columnId": "b36c2356-4039-4f80-a25b-fff8761a4b7f",
+            "content": "31",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "eb73a8b0-3ebd-4a0d-b3de-e2ab04c296e4",
+        "index": 5,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:11:51.844Z",
+        "lastEditedDateTime": "2024-01-23T02:17:33.499Z",
+        "cells": [
+          {
+            "id": "afb1ca6a-9c51-4c77-b447-33bf6e02a57b",
+            "columnId": "c3aa6e51-7090-4c74-9f44-0ce1e80afefc",
+            "content": "ENZO FERNANDEZ ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "18bba133-b653-4634-a66e-abedc98972d8",
+            "columnId": "04f08001-2584-4e70-85fa-d8f732478fb3",
+            "content": "24",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "97a52ac5-98dc-49c9-9de0-4e579a5a6112",
+            "columnId": "ba340b97-2953-48d8-813d-27d7a9ada861",
+            "content": "Chelsea",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "51c0a7f6-19a3-41bd-85e8-8814215f102c",
+            "columnId": "b36c2356-4039-4f80-a25b-fff8761a4b7f",
+            "content": "23",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.15.11"
+}

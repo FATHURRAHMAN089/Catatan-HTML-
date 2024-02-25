@@ -1,0 +1,223 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "a34cce11-c322-40a3-87c2-6ea145f21f4c",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "ARGENTINA ",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "1584bf63-9d68-4c80-860f-1464a649bb54",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "969ec469-3766-420e-8c22-10adc394de18",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "New Column",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "1980e36a-6a59-4184-9ac4-c9272a8db9d2",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:06:02.246Z",
+        "lastEditedDateTime": "2024-01-23T02:09:48.385Z",
+        "cells": [
+          {
+            "id": "e9928e7b-a4e8-490d-bec2-560fa5609b35",
+            "columnId": "a34cce11-c322-40a3-87c2-6ea145f21f4c",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "8e585f64-b02f-4271-822f-11dc6eed6ee9",
+            "columnId": "1584bf63-9d68-4c80-860f-1464a649bb54",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "992946b7-471c-49a3-bf74-6b2b53179600",
+            "columnId": "969ec469-3766-420e-8c22-10adc394de18",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "3bf4b5f2-1439-4a1d-8af3-79a4c7d94a5b",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:06:16.046Z",
+        "lastEditedDateTime": "2024-01-23T02:08:34.833Z",
+        "cells": [
+          {
+            "id": "daaa7fba-9f25-4882-bc17-3256c63d840f",
+            "columnId": "a34cce11-c322-40a3-87c2-6ea145f21f4c",
+            "content": "BAYERN MUNCHEN ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "4c799bba-01c8-4951-b93c-cd28decf87f1",
+            "columnId": "1584bf63-9d68-4c80-860f-1464a649bb54",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "76216f90-1724-4145-ab9e-013c49741ac5",
+            "columnId": "969ec469-3766-420e-8c22-10adc394de18",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "935902b8-23c2-48ae-8921-a1e200b06c55",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:06:17.296Z",
+        "lastEditedDateTime": "2024-01-23T02:08:40.592Z",
+        "cells": [
+          {
+            "id": "265b7027-f71a-4559-a18e-917d18bc7fe3",
+            "columnId": "a34cce11-c322-40a3-87c2-6ea145f21f4c",
+            "content": "Barcelona ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "c463b42f-d654-4686-bee7-7b5c1895f21a",
+            "columnId": "1584bf63-9d68-4c80-860f-1464a649bb54",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "c32a4973-4867-43f9-b342-4298818eb13a",
+            "columnId": "969ec469-3766-420e-8c22-10adc394de18",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "db44d8f8-65a4-4df4-8c05-1540cd7d67d3",
+        "index": 3,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:06:18.806Z",
+        "lastEditedDateTime": "2024-01-23T02:08:48.099Z",
+        "cells": [
+          {
+            "id": "871cd716-4f5a-4ba5-8b37-0b1d88f40c3c",
+            "columnId": "a34cce11-c322-40a3-87c2-6ea145f21f4c",
+            "content": "Man.city",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "dcf797ac-b8cf-43c3-9796-aafbb5bbd106",
+            "columnId": "1584bf63-9d68-4c80-860f-1464a649bb54",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "a2e4278a-6dc2-493b-a7b8-81805051d42e",
+            "columnId": "969ec469-3766-420e-8c22-10adc394de18",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "a9e6a043-ba46-498c-b3a7-00b58e2f2795",
+        "index": 4,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T02:06:30.887Z",
+        "lastEditedDateTime": "2024-01-23T02:09:01.093Z",
+        "cells": [
+          {
+            "id": "365d03b8-5044-4d80-b07a-277063d57c65",
+            "columnId": "a34cce11-c322-40a3-87c2-6ea145f21f4c",
+            "content": "Inter milan ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "a4026d7e-7b08-4b4a-b4ad-268c81d68642",
+            "columnId": "1584bf63-9d68-4c80-860f-1464a649bb54",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "452a50b8-6616-4059-b31b-cd3cf07bb610",
+            "columnId": "969ec469-3766-420e-8c22-10adc394de18",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.15.11"
+}
