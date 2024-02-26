@@ -43,11 +43,11 @@
     "//CSS/CSS/assets",
     "//Assets",
     "//Pengenalan CSS",
-    "//HTML",
     "//HTML/HTML/Assets",
     "//asets",
     "//Basis Data",
-    "//Basis Data"
+    "//Basis Data",
+    "//Basis Data/Basis Data/asets"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

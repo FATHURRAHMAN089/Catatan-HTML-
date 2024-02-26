@@ -23,7 +23,7 @@ ___
 # Tabel Database 
 
 >[!faq]- Contoh Tabel Database 
->![Gambar_tabel](asets/tabel.jpg)
+>![Gambar_tabel](tabel.jpg)
 
 
 # Struktur/Hirarki DataBase
@@ -91,7 +91,7 @@ mySQL -u root
 
 **Contoh**:
 
-![Gambar_u root](asets/SQLURoot.jpg)
+![Gambar_u root](SQLURoot.jpg)
 ## Analisis & Kesimpulan MySQL -u root
 
 ### ==MySQL==
@@ -120,7 +120,8 @@ Create database xi_rpl_1;
 
 ### Hasil
 
-![Gambar_buatdatabases](asets/buat_database.jpg)
+![Gambar_buatdatabases](buat_database.jpg)
+
 ### **Analisis**:
 ==Create database== digunakan untuk membuat database.Contohnya seperti create database xi_rpl_1.==xi_rpl_1== adalah nama database yang akan kita buat.
 
@@ -142,7 +143,7 @@ Show databases;
 ```
 
 ### Hasil
-![Gambar-02](Asets/Tampilkan_database.jpg)
+![Gambar-02](Tampilkan_database.jpg)
 
 ### **Analisis**:
 **==Show Databases==** Berfungsi untuk menampilkan database yang kita buat.
@@ -164,7 +165,7 @@ drop database nama_database;
 drop database xi_rpl_1
 ```
 
-![Gambar-03](asets/hapus_database.jpg)
+![Gambar-03](hapus_database.jpg)
 
 ### Analisis:
 fungsi dari ==drop database== adalah untuk menghapus sebuah database.xi_rpl_1 nama database yang ingin dihapus,contohnya ==drop database xi_rpl_1==.otomatis database dari xi_rpl_1 akan terhapus.Jika ingin memastikan databasenya sudah terhapus kita ketik ==show database;
@@ -186,7 +187,8 @@ use xi_rpl_1;
 
 ### Hasil
 
-![Gambar-04](asets/Gunakan_database.jpg)
+![Gambar-04](Gunakan_database.jpg)
+
 
 ### Analisis:
 ==use== itu berfungsi untuk beralih database seperti ==use xi_rpl_1== (nama database) maka akan beralih ke database xi_rpl_1.
@@ -220,7 +222,7 @@ CREATE TABLE contoh_tabel (
 
 ### Contoh:
 
-![Gambar-05](asets/angka.jpg)
+![Gambar-05](angka.jpg)
 
 
 
@@ -256,7 +258,7 @@ CREATE TABLE nama_tabel (
 
 ### Contoh:
 
-![Gambar-06](Asets/teks.jpg)
+![Gambar-06](teks.jpg)
 
 ### Analisis
 - Kolom ==nama== diubah menjadi VARCHAR(50) agar nama dapat maksimal 50 karakter
@@ -296,7 +298,7 @@ CREATE TABLE ContohTabel (
 
 ### hasil
 
-![Gambar-07](Asets/tanggal.jpg)
+![Gambar-07](tanggal.jpg)
 
 
 Dalam contoh ini, kolom **==tanggal==** akan menyimpan nilai tanggal, **==waktu==** menyimpan nilai waktu, ==**datetimekolom**== menyimpan kombinasi tanggal dan waktu, dan **==timestampkolom==** akan secara otomatis diatur saat data dimasukkan atau diubah.
@@ -358,7 +360,7 @@ id_pelanggan int(4)PRIMARY KEY NOT NULL , nama_depan varchar(25) NOT NULL , nama
 
 ### Hasil
 
-![Gambar_termux](Asets/delete_tabel.jpg)
+![Gambar_termux](delete_tabel.jpg)
 
 ### Analisis
 
@@ -387,7 +389,7 @@ desc pelanggan;
 
 ### Hasil
 
-![Gambar_desc](Asets/IMG_desc.jpg)
+![Gambar_desc](IMG_desc.jpg)
 
 ### Analisis 
 ==Desc pelanggan== berguna untuk menampilkan struktur dari database yang sudah di buat dan ==pelanggan== itu adalah nama tabel yang ingin di tampilkan.
@@ -404,7 +406,7 @@ Show tables;
 
 ### Hasil
 
-![Gambar_tabel](Asets/tampilkan_tabel.jpg)
+![Gambar_tabel](tampilkan_tabel.jpg)
 
 ### Analisis
 ==Show tables== berfungsi untuk membuka daftar tabel yang sudah kita buat.maka semua isi dari tabel akan tampil.
@@ -460,7 +462,7 @@ Values (1,"Fatur","rahman",'08960214172');
 
 **Hasil**
 
-![Gambar_1Baris](asets/IMG_1Baris.jpg)
+![Gambar_1Baris](IMG_1Baris.jpg)
 
 **Analisis**
 
@@ -493,7 +495,7 @@ INSERT INTO pelanggan Values
 
 #### Hasil
 
-![Gambar_lebih1baris](asets/IMG_lebih1baris.jpg)
+![Gambar_lebih1baris](IMG_lebih1baris.jpg)
 
 #### Analisis
 
@@ -520,7 +522,7 @@ SELECT * FROM pelanggan;
 
 #### Hasil
 
-![Gambar_all tabel](asets/all_tabel.jpg)
+![Gambar_all tabel](all_tabel.jpg)
 
 #### Analisis
 
@@ -546,7 +548,7 @@ SELECT nama_depan, nama_belakang, no_telp FROM pelanggan;
 
 #### Hasil
 
-![Gambar_field spesifik](asets/field_spesifik.jpg)
+![Gambar_field spesifik](field_spesifik.jpg)
 
 #### Analisis
 `Select` adalah kata kunci yang digunakan untuk mengambil kolom-kolom tertentu dari tabel.
@@ -575,7 +577,7 @@ SELECT nama_depan FROM pelanggan WHERE Id_Pelanggan=2;
 
 #### Hasil 
 
-![Gambar_select where](asets/where.jpg)
+![Gambar_select where](where.jpg)
 
 #### Analisis
 
@@ -599,7 +601,7 @@ Update pelanggan SET nama_belakang="Rahman" WHERE id_pelanggan="1";
 ```
 
 ## Hasil
-![Gambar_07](Assets/IMG_07.jpg)
+![Gambar_07](IMG_07.jpg)
 
 ## Analisis
 **Update** bertugas untuk mengupdate sebuah tabel contohnya `update` (`pelanggan`) nama tabelnya,SET itu berfungsi untuk menyimpan satu atau lebih nilai dari himpunan yang telah ditentukan (`nama_belakang`) bagian kolom tabel yang ingin diubah dan (`rahman`) hasilnya ketika kita sudah mengubahnya.
@@ -622,7 +624,7 @@ DELETE FROM pelanggan  WHERE id_pelanggan="3";
 
 ## Hasil
 
-![Gambar_08](Assets/IMG_08.jpg)
+![Gambar_08](IMG_08.jpg)
 
 ## Analisis 
 `Delete` itu berfungsi untuk menghapus kolom dari tabel, (`pelanggan`)nama tabelnya,dan `WHERE id_pelanggan="3";` adalah nama kolom dari tabel, Contohnya (`id_pelanggan="3"`) adalah bagian kolom tabel yang ingin kita hapus,(`3`) berarti kolom no 3 yang kita ingin hapus.
@@ -643,7 +645,7 @@ drop table pesanan;
 
 ## Hasil
 
-![Gambar_09](Assets/IMG_09.jpg)
+![Gambar_09](IMG_09.jpg)
 
 ## Analisis 
 `Drop tabel` berfungsi untuk menghapus sebuah tabel dan (`pesanan`) nama tabelnya yang ingin kita hapus.dan untuk mengecek apakah tabelnya sudah terhapus masukkan kode `show tables`
