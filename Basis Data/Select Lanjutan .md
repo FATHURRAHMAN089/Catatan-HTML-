@@ -10,7 +10,7 @@ select warna,pemilik FROM mobil WHERE warna="Hitam" AND pemilik="Fatur";
 ```
 ### Hasil
 
-![Gambar_AND](IMG_AND.jpg)
+![Gambar_AND](asets/IMG_AND.jpg)
 
 ### Analisis
 `Select warna` bertugas untuk menampilkan warna dari mobil yang ingin di tampilkan,`from mobil` adalah nama tabel (mobil),`where warna="hitam"` berarti warna mobil yang akan di tampilkan itu warnanya hitam dan `AND` itu menampilkan seluruh mobil yang warnanya hitam dengan nama pemiliknya, walaupun beda pemilik tapi kalau warnanya sama tetap akan tampil.

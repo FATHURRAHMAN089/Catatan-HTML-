@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "materi css/Catatan css/Pengenalan CSS .md",
+                "file": "materi css/Css Responsive/CSS Responsive.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md",
+            "file": "materi css/Css Responsive/CSS Responsive.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md",
+            "file": "materi css/Css Responsive/CSS Responsive.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md"
+            "file": "materi css/Css Responsive/CSS Responsive.md"
           }
         }
       }
@@ -142,9 +142,14 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
+    "materi css/Css Responsive/Css Responsive.md",
+    "IMG_20240219_120854.jpg.md",
+    "materi css/Css Responsive/CSS Responsive.pdf",
+    "materi css/Css Responsive/assets/responsive-1.png",
+    "materi css/Catatan css/Pengenalan CSS .md",
+    "Basis Data/Select Lanjutan .md",
     "materi css/Materi Eksplorasi css.md",
     "materi css/Catatan css/Materi Eksplorasi css.md",
-    "materi css/Catatan css/Pengenalan CSS .md",
     "materi css/Catatan css/assetss/flexbox_T.jpg",
     "materi css/Bootstrap/Bootstrap Framework.md",
     "materi css/CSS.md",
@@ -157,11 +162,9 @@
     "materi css/Catatan css/assetss/minwidth_hp.jpeg",
     "materi css/Catatan css/assetss/minheight_pc.jpeg",
     "materi css/Catatan css/assetss/minheight_hp.jpeg",
-    "materi css/Catatan css/assetss/maxheight_pc.jpeg",
     "materi css/Catatan css/assetss",
     "materi css/Bootstrap/Bootstrap Framework.pdf",
     "materi css/Bootstrap/assets",
-    "materi css/Css Responsive/CSS Responsive.pdf",
     "materi css/Css Responsive/CSS Responsive.md",
     "materi css/Css Responsive/assets",
     "materi css/Catatan css",
@@ -179,14 +182,11 @@
     "Bootstrap/Bootstrap Framework.md",
     "Basis Data/Instalasi & Query awal Database .md",
     "CSS/Materi eksplorasi .md",
-    "Basis Data/Select Lanjutan .md",
     "Basis Data/ALTER.md",
     "Basis Data/PENGENALAN Basis Data.md",
     "HTML/(3)DESKRIPSI HTML,CSS,JAVA SCRIPT DARI SEBUAH RUMAH.md",
-    "IMG_20240219_120854.jpg.md",
     "Basis Data/asets/Catatan Basis data .md",
     "HTML/Assets/Catatan HTML .md",
-    "HTML/Pertemuan 1.md",
-    "Basis Data/Catatan Basis data .md"
+    "HTML/Pertemuan 1.md"
   ]
 }
