@@ -36,7 +36,7 @@ button {   
 
 ### Hasil
 
-![width](width.png)
+![width](assetss/width.png)
 
 ## height 
 ### Penjelasan
@@ -52,7 +52,7 @@ button {
 
 ### Hasil
 
-![Height](Height.png)
+![Height](assetss/Height.png)
 
 ## Max-width
 ### Penjelasan
@@ -80,9 +80,9 @@ button {
 
 ### Hasil
 #### Tampilan pc
-![maxwidth_pc](maxwidth_pc.jpeg)
+![maxwidth_pc](assetss/maxwidth_pc.jpeg)
 #### Tampilan Hp
- ![Max-Width](maxwidth_hp.jpeg)
+ ![Max-Width](assetss/maxwidth_hp.jpeg)
 ## Min-width
 ### Penjelasan
 Properti `min-width` menetapkan lebar minimum untuk sebuah elemen. Elemen akan memiliki setidaknya lebar ini, bahkan jika konten di dalamnya tidak memerlukan itu.
@@ -106,9 +106,10 @@ Properti `min-width` menetapkan lebar minimum untuk sebuah elemen. Elemen akan m
 ```
 ### Hasil
 #### Tampilan Laptop
-![Min-Width](minwidth_pc.jpeg)
+![Min-Width](assetss/minwidth_pc.jpeg)
+
 #### Tampilan Hp
-![Min-Width](minwidth_hp.jpeg)
+![Min-Width](assetss/minwidth_hp.jpeg)
 ## Max-height
 ### Penjelasan
 
@@ -140,9 +141,9 @@ Properti `max-height` menetapkan tinggi maksimum untuk sebuah elemen. Elemen tid
 ### Hasil
 
 #### Tampilan Laptop 
-![Max-height](maxheight_pc.jpeg)
+![Max-height](assetss/maxheight_pc.jpeg)
 #### After Hp
-![Max-height](maxheight_hp.jpeg)
+![Max-height](assetss/maxheight_hp.jpeg)
 ## Min-height
 ### Penjelasan
 
@@ -176,9 +177,9 @@ Properti `min-height` menetapkan tinggi minimum untuk sebuah elemen. Elemen akan
 
 ### Hasil
 #### Tampilan Laptop 
- ![Min-height](minheight_pc.jpeg)
+ ![Min-height](assetss/minheight_pc.jpeg)
 #### Tampilan Hp
-![Min-height](minheight_hp.jpeg)
+![Min-height](assetss/minheight_hp.jpeg)
 
 
 
@@ -285,9 +286,9 @@ button {
 
 ## Hasil
 ### Tampilan Laptop
-![Implementasi](implementasi_pc.jpeg)
+![Implementasi](assetss/implementasi_pc.jpeg)
 ### Tampilan Hp
-![implementasi](implementasi_hp.jpeg)
+![implementasi](assetss/implementasi_hp.jpeg)
 ## **Penjelasan program:**
 
 

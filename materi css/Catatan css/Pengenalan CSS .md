@@ -1,7 +1,7 @@
 
 # Anatomi CSS
 
-![anatomi](anatomi_css.jpg)
+![anatomi](assetss/anatomi_css.jpg)
 
 # Percobaan 1
 ## Kode program
@@ -13,7 +13,8 @@
 ```
 ## Hasil
 
-![gmbar](P_1.jpg)
+![gmbar](assetss/P_1.jpg)
+
 ## Penjelasan
 Deklarasi gaya CSS { `color: red;`} menetapkan properti color ke nilai "`red`", sehingga teks dalam elemen paragraf akan ditampilkan dengan warna merah.
 # Percobaan 2
@@ -32,7 +33,7 @@ font-size: 100px;
 
 ## Hasil
 
-![p_2](P_2.jpg)
+![p_2](assetss/P_2.jpg)
 
 button { font-size: `100px`; } adalah aturan CSS yang menentukan gaya untuk semua elemen <`button`> dalam dokumen HTML
 **Button**: Ini adalah selector yang menargetkan semua elemen <`button`> dalam dokumen HTML.
@@ -82,7 +83,7 @@ p { text-align: center;
 ```
 
 #### Hasil
-![center](center.jpg)
+![center](assetss/center.jpg)
 #### Analisis 
 Membuat teksnya pindah ketengah (Center)
 ### Right
@@ -94,7 +95,7 @@ Teks-align:right;
 ```
 
 #### Hasil
-![right](right.jpg)
+![right](assetss/right.jpg)
 
 #### analisis
 Untuk memindahkan teks ke bagian kanan
@@ -107,7 +108,7 @@ Teks-align:left;
 
 #### Hasil
 
-![left](left.jpg)
+![left](assetss/left.jpg)
 
 #### analisis
 
@@ -126,10 +127,10 @@ Text-decoration: underline ;
 
 #### before
 
-![underline](before.jpg)
+![underline](assetss/before.jpg)
 #### after
 
-![underline](underline.jpg)
+![underline](assetss/underline.jpg)
 
 #### analisis
 
@@ -142,9 +143,9 @@ Teks-decoration:overline;
 ```
 
 #### Before
-![overline](none.jpg)
+![overline](assetss/none.jpg)
 #### after
-![overline](overline.jpg)
+![overline](assetss/overline.jpg)
 #### Analisis
 
 `Overline` berguna Memberikan garis pada atas teks.
@@ -157,7 +158,7 @@ Teks-decoration:none;
 
 #### hasil
 
-![none](none.jpg)
+![none](assetss/none.jpg)
 
 #### analisis
 
@@ -172,7 +173,7 @@ p {
 }
 ```
 ### Hasil
-![indent](text_indent.jpg)
+![indent](assetss/text_indent.jpg)
 ### Kesimpulan 
 Kesimpulannya untuk mengatur jarak pada awal teks/paragraf.
 
@@ -186,7 +187,7 @@ Text-transform:uppercase;
 ```
 
 #### Hasil
-![uppercase](uppercase.jpg)
+![uppercase](assetss/uppercase.jpg)
 #### kesimpulan 
 Memberikan pada seluruh teks huruf kapital.
 ### capitalize
@@ -195,7 +196,7 @@ Memberikan pada seluruh teks huruf kapital.
 Text-transform: capitalize;
 ```
 #### hasil
-![capitalize](capitalize.jpg)
+![capitalize](assetss/capitalize.jpg)
 #### Kesimpulan 
 Akan memberikan pada seluruh awalan teks huruf kapital.
 ### lowercase
@@ -204,7 +205,7 @@ Akan memberikan pada seluruh awalan teks huruf kapital.
 Teks-transform:lowercase;
 ```
 #### hasil
-![lowercase](lowercase.jpg)
+![lowercase](assetss/lowercase.jpg)
 #### kesimpulan 
 Semua teksnya bukan menggunakan huruf kapital.
 ## line-height
@@ -217,7 +218,7 @@ p {
 }
 ```
 ### Hasil
-![line_height](Line_height.jpg)
+![line_height](assetss/Line_height.jpg)
 ### Kesimpulan 
 `line-height` adalah properti dalam CSS yang digunakan untuk mengatur ketinggian garis antara dua baris teks dalam sebuah elemen. 
 
@@ -237,7 +238,7 @@ p {
 
 ### hasil
 
-![image](imagee.jpg)
+![image](assetss/imagee.jpg)
 ### kesimpulan 
 Untuk mengatur besar kecilnya sebuah image.
 ## background-image
@@ -255,7 +256,8 @@ p {
     }
 ```
 ### hasil
-![image](image.jpg)
+![image](assetss/image.jpg)
+
 ### kesimpulan 
 Properti background-image dalam CSS digunakan untuk menentukan gambar yang akan digunakan sebagai latar belakang sebuah elemen HTML.
 ## background-repeat
@@ -283,7 +285,8 @@ gambar `('/logo.png')` sebagai latar belakang dengan tinggi sebesar `100%` dari 
 </html>
 ```
 ### hasil
-![Background_repeat](Repeat.jpg)
+![Background_repeat](assetss/Repeat.jpg)
+
 ### Kesimpulan 
 Background repeat adalah sebuah properti dalam CSS yang mengontrol apakah gambar latar belakang akan diulang atau tidak ketika ukurannya lebih kecil dari elemen yang menampilkannya. 
 ## background-attachmen
@@ -316,7 +319,7 @@ background-attachment adalah properti dalam CSS yang mengontrol apakah gambar la
 ```
 ### hasil
 
-![background_attacment](attachment.jpg)
+![background_attacment](assetss/attachment.jpg)
 ### Kesimpulan 
 Kesimpulannya, background-attachment adalah properti CSS yang mengontrol perilaku gambar latar belakang terhadap guliran halaman.
 ## background-position
@@ -347,7 +350,7 @@ Kesimpulannya, background-attachment adalah properti CSS yang mengontrol perilak
 
 ```
 ### hasil
-![background_posisition](position.jpg)
+![background_posisition](assetss/position.jpg)
 ### Kesimpulan 
 Jadi, `background-position` yang menentukan posisi awal dari gambar latar belakang.ini digunakan  untuk mengatur posisi gambar latar belakang secara relatif dengan menggunakan nilai persentase atau piksel, atau menggunakan seperti `center`atau `bottom right` untuk menentukan posisi relatif terhadap elemen.
 
@@ -363,7 +366,8 @@ font-size: 50px ;
 
 ### Hasil
 
-![size](size.jpg)
+![size](assetss/size.jpg)
+
 #### Analisis
 Font size ini digunakan untuk mengatur ukuran teks yang diinginkan.
 
@@ -381,7 +385,7 @@ font-style:italic;
 
 #### Hasil
 
-![italic](italic.jpg)
+![italic](assetss/italic.jpg)
 #### kesimpulan 
 
 `Font-style` akan memberikan model pada teks.contohnya seperti `italic` yang Teksnya agak sedikit miring.
@@ -408,7 +412,7 @@ p {
 
 ### Hasil
 
-![font-weight](bold.jpg)
+![font-weight](assetss/bold.jpg)
 
 ### kesimpulan 
 Kesimpulannya, `font-weight` adalah properti dalam CSS yang digunakan untuk mengatur ketebalan atau keberatan font teks.
@@ -425,7 +429,8 @@ p {
 
 ### Hasil
 
-![font_family](font_family.jpg)
+![font_family](assetss/font_family.jpg)
+
 ### kesimpulan 
 Kesimpulannya, `font-family` adalah properti dalam CSS yang digunakan untuk mengatur jenis font yang akan digunakan untuk menampilkan teks.
 
@@ -441,7 +446,7 @@ button {
    }
 ```
 #### hasil
-![width_height](width_height.jpg)
+![width_height](assetss/width_height.jpg)
 #### Kesimpulan 
 
 Kesimpulannya untuk tingginya (`height`) adalah 50px,dan lebarnya (`width`) adalah 100px
@@ -456,7 +461,7 @@ button {
    }
 ```
 #### hasil
-![width](Border_width.jpg)
+![width](assetss/Border_width.jpg)
 #### Kesimpulan 
 Mengatur lebar dari Bordernya 
 ### Border-radius
@@ -470,7 +475,8 @@ button {
 ```
 #### hasil
 
-![radius](font_radius.jpg)
+![radius](assetss/font_radius.jpg)
+
 #### Kesimpulan 
 Memberikan lengkungan pada Bordernya.
 ### Border-style
@@ -490,7 +496,7 @@ button {
    }
 ```
 #### hasil
-![dashed](dashed.jpg)
+![dashed](assetss/dashed.jpg)
 #### Kesimpulan
 Kesimpulannya menggunakan `border-style dashed` akan memberikan garis putus" pada bagian Border button.
 ### Border color
@@ -503,7 +509,8 @@ button {
    }
 ```
 #### hasil
-![color](color.jpg)
+![color](assetss/color.jpg)
+
 #### Kesimpulan 
 Memberikan warna pada Bordernya seperti warna Aqua.
 ## Padding
@@ -519,7 +526,8 @@ button {
    }
 ```
 #### hasil
-![left](padding_left.jpg)
+![left](assetss/padding_left.jpg)
+
 #### Kesimpulan 
 Membuat bagian kosong dari button yang ada sebelah kiri
 ### Padding-right
@@ -534,7 +542,7 @@ button {
    }
 ```
 #### hasil
-![right](padding_right.jpg)
+![right](assetss/padding_right.jpg)
 #### Kesimpulan 
 Membuat bagian kosong dari button yang ada sebelah kanan. 
 ### Padding-bottom 
@@ -549,7 +557,7 @@ button {
    }
 ```
 #### hasil
-![bottom](padding_bottom.jpg)
+![bottom](assetss/padding_bottom.jpg)
 #### Kesimpulan 
 Membuat bagian kosong dari button yang ada pada bagian bawah.
 ### Padding-top
@@ -564,7 +572,7 @@ button {
    }
 ```
 #### hasil
-![top](padding_top.jpg)
+![top](assetss/padding_top.jpg)
 #### Kesimpulan 
 Membuat bagian kosong dari button yang ada pada bagian atas.
 ## Margin
@@ -578,7 +586,8 @@ margin-left: 50px;
    }
 ```
 #### hasil
-![margin_left](margin_left.jpg)
+![margin_left](assetss/margin_left.jpg)
+
 #### Kesimpulan 
 Memberikan jarak button di bagian kiri.
 ### Margin-top 
@@ -591,7 +600,8 @@ margin-top: 50px;
    }
 ```
 #### hasil
-![margin_top](margin_toop.jpg)
+![margin_top](assetss/margin_toop.jpg)
+
 #### Kesimpulan 
 Memberikan jarak button di bagian atasnya.
 ### Margin-right
@@ -604,7 +614,8 @@ Margin-right: 50px;
    }
 ```
 #### hasil
-![margin_right](margin_right.jpg)
+![margin_right](assetss/margin_right.jpg)
+
 #### Kesimpulan 
 Kesimpulannya `margin-right` adalah properti CSS yang digunakan untuk mengatur jarak antara tepi kanan suatu elemen dengan elemen lainnya.
 ### Margin-bottom
@@ -617,7 +628,7 @@ Margin-bottom: 50px;
    }
 ```
 #### hasil
-![margin_bottom](margin_bottom.jpg)
+![margin_bottom](assetss/margin_bottom.jpg)
 #### Kesimpulan 
 Memberikan jarak button dengan button yang ada dibawahnya.
 
@@ -670,7 +681,7 @@ button {
 
 ### Hasil
 
-![latihan](latihan.jpg)
+![latihan](assetss/latihan.jpg)
 # Pseudo Classes
 
 ##  Hover
@@ -736,9 +747,9 @@ button:active{
 ```
 ### Hasil
 #### before
-![before](before_delay.jpg)
+![before](assetss/before_delay.jpg)
 #### after
-![after](after_delay.jpg)
+![after](assetss/after_delay.jpg)
 ### Kesimpulan 
 Jadi, `transition-delay` adalah properti CSS yang menentukan waktu penundaan sebelum transisi dimulai setelah perubahan pada elemen tersebut.
 ## Transition-duration
@@ -776,9 +787,11 @@ Jadi, `transition-delay` adalah properti CSS yang menentukan waktu penundaan seb
 ```
 ### Hasil
 #### Before
-![before](before_duration.jpg)
+![before](assetss/before_duration.jpg)
+
 #### After
-![after](after_duration.jpg)
+![after](assetss/after_duration.jpg)
+
 ### Kesimpulan 
 `Transition-duration` adalah properti dalam CSS yang mengontrol durasi waktu dari transisi antara dua keadaan yang berbeda.
 ## Transition-Property
@@ -817,10 +830,11 @@ Jadi, `transition-delay` adalah properti CSS yang menentukan waktu penundaan seb
 ### Hasil
 
 #### before
-![before](before_property.jpg)
+![before](assetss/before_property.jpg)
 
 #### After
-![after](after_property.jpg)
+![after](assetss/after_property.jpg)
+
 ### Kesimpulan 
 `Transition-Property` digunakan untuk menentukan properti mana yang akan mengalami efek transisi saat nilai mereka berubah. membuat perubahan halus dalam tampilan elemen saat nilai properti berubah, seperti warna, ukuran, atau posisi.
 ## Transition-Timing-function
@@ -859,9 +873,9 @@ Jadi, `transition-delay` adalah properti CSS yang menentukan waktu penundaan seb
 ```
 ### Hasil
 #### Before 
-![before_timing](before_timing.jpg)
+![before_timing](assetss/before_timing.jpg)
 #### After
-![after_timing](after_timing.jpg)
+![after_timing](assetss/after_timing.jpg)
 
 ### Kesimpulan 
 ## Studi Kasus
@@ -922,10 +936,10 @@ button:hover{background-color:red;
 
 ### Hasil
 #### Before 
-![before](Position_b.jpg)
+![before](assetss/Position_b.jpg)
 
 #### After
-![after](Position_a.jpg)
+![after](assetss/Position_a.jpg)
 # Transfrom
 ## Transform-Scale
 ### Penjelasan 
@@ -967,7 +981,8 @@ button:hover{background-color:red;
 ```
 
 ### Hasil
-![scale](scale.jpg)
+![scale](assetss/scale.jpg)
+
 ### Kesimpulan 
 Kesimpulannya, `transform-scale` merupakan alat yang sangat berguna dalam desain web untuk mengontrol ukuran elemen dengan mudah dan fleksibel.
 ## Transform-ScaleX
@@ -1010,7 +1025,7 @@ Kesimpulannya, `transform-scale` merupakan alat yang sangat berguna dalam desain
 ```
 
 ### Hasil
-![scalex](scalex.jpg)
+![scalex](assetss/scalex.jpg)
 
 ### Kesimpulan 
 Jadi,dengan menggunakan `transform-scaleX`, Anda dapat memperbesar atau memperkecil elemen dalam arah horizontal sesuai dengan nilai yang ditentukan.
@@ -1054,7 +1069,7 @@ Jadi,dengan menggunakan `transform-scaleX`, Anda dapat memperbesar atau memperke
 ```
 
 ### Hasil
-![rotate](rotate.jpg)
+![rotate](assetss/rotate.jpg)
 ### Kesimpulan 
 `Transform-rotate` adalah properti CSS yang memungkinkan pengguna untuk memutar elemen HTML di sekitar sumbu tertentu, dengan nilai dalam satuan derajat.
 ## Transform-Skew
@@ -1097,7 +1112,7 @@ Jadi,dengan menggunakan `transform-scaleX`, Anda dapat memperbesar atau memperke
 ```
 
 ### Hasil
-![skew](skew.jpg)
+![skew](assetss/skew.jpg)
 ### Kesimpulan 
 
 `Transform-skew` sering digunakan untuk menciptakan efek visual seperti sudut miring, perspektif, atau animasi yang menarik dalam desain web. Ini merupakan alat yang berguna untuk meningkatkan tampilan dan interaktivitas halaman web.
@@ -1144,7 +1159,7 @@ Properti ini memiliki nilai yang diukur dalam satuan derajat, yang menentukan se
 ```
 
 ### Hasil
-![skewX](skewx.jpg)
+![skewX](assetss/skewx.jpg)
 
 ### Kesimpulan 
 `Transform-skewX` sering digunakan untuk menciptakan efek visual seperti sudut miring atau perspektif dalam desain web. Ini memungkinkan kita untuk menambahkan elemen desain yang dinamis dan menarik bagi penggunanya.
@@ -1188,7 +1203,8 @@ Properti ini memiliki nilai yang diukur dalam satuan derajat, yang menentukan se
 ```
 
 ### Hasil
-![translate](translate.jpg)
+![translate](assetss/translate.jpg)
+
 ### Kesimpulan 
 Jadi,Transform-Translate itu digunakan untuk memindahkan elemen HTML dari posisi aslinya secara vertikal, horizontal,maupun keduanya.
 ## Transform-Matrix
@@ -1231,7 +1247,7 @@ Jadi,Transform-Translate itu digunakan untuk memindahkan elemen HTML dari posisi
 ```
 
 ### Hasil
-![matrix](matrix.jpg)
+![matrix](assetss/matrix.jpg)
 
 ### Kesimpulan 
 `Transform-matrix` adalah properti CSS yang memungkinkan kita untuk mengontrol transformasi elemen HTML.
@@ -1258,7 +1274,7 @@ Jadi,Transform-Translate itu digunakan untuk memindahkan elemen HTML dari posisi
 </html>
 ```
 ### Hasil
-![display flex](display_fleex.jpg)
+![display flex](assetss/display_fleex.jpg)
 
 ### Kesimpulan 
 `display: flex` adalah properti CSS yang memungkinkan pengaturan tata letak elemen-elemen HTML secara fleksibel dalam satu baris atau satu kolom dalam sebuah kontainer. 
@@ -1288,7 +1304,8 @@ Jadi,Transform-Translate itu digunakan untuk memindahkan elemen HTML dari posisi
 </html>
 ```
 ### Hasil
-![flex_direction](flex_direction.jpg)
+![flex_direction](assetss/flex_direction.jpg)
+
 ### Kesimpulan 
 `flex-direction` adalah properti CSS yang digunakan untuk mengatur arah tata letak fleksibel dari elemen-elemen dalam kontainer flex.
 ## align items
@@ -1318,7 +1335,7 @@ Jadi,Transform-Translate itu digunakan untuk memindahkan elemen HTML dari posisi
 </html>
 ```
 ### Hasil
-![align_items](align_items.jpg)
+![align_items](assetss/align_items.jpg)
 ### Kesimpulan 
 `align-items` adalah properti CSS dalam Flexbox yang mengatur penempatan vertikal flex items di dalam container flex.
 ## justify-content
@@ -1356,7 +1373,8 @@ Jadi,Transform-Translate itu digunakan untuk memindahkan elemen HTML dari posisi
 </html>
 ```
 ### Hasil
-![justify_content](justify_content.jpg)
+![justify_content](assetss/justify_content.jpg)
+
 ### Kesimpulan 
 `justify-content` adalah properti CSS dalam Flexbox yang mengatur penempatan horizontal flex items di dalam container flex.
 ## Studi Kasus 
@@ -1449,7 +1467,8 @@ img{
 </html>
 ```
 ### Hasil
-![T_flexbox](flexbox_T.jpg)
+![T_flexbox](assetss/flexbox_T.jpg)
+
 # Position
 ## Position relative
 ### Penjelasan 
@@ -1495,9 +1514,9 @@ img{
 ```
 ### Hasil
 #### before
-![before](before_relative.jpg)
+![before](assetss/before_relative.jpg)
 #### after
-![after](after_relative.jpg)
+![after](assetss/after_relative.jpg)
 ### Kesimpulan 
 `position: relative;` adalah properti CSS yang memungkinkan Anda menggeser posisi suatu elemen relatif terhadap posisi awalnya (normal).
 ## Position absolute 
@@ -1544,9 +1563,9 @@ img{
 ```
 ### Hasil
 #### before
-![before](before_absolute.jpg)
+![before](assetss/before_absolute.jpg)
 #### after
-![after](after_absolute.jpg)
+![after](assetss/after_absolute.jpg)
 ### Kesimpulan 
 `position: absolute`; adalah properti CSS yang mengatur posisi suatu elemen relatif terhadap elemen yang diberikan, bukan terhadap posisi elemen tersebut 
 ## Position fixed
@@ -1586,9 +1605,10 @@ img{
 ```
 ### Hasil
 #### before
-![before](before_fixed.jpg)
+![before](assetss/before_fixed.jpg)
+
 #### after
-![after](after_fixed.jpg)
+![after](assetss/after_fixed.jpg)
 ### Kesimpulan 
 Jadi, `Position:fixed`; dia akan tetap tinggal ditempat yang sama walaupun kita menggulir ke halaman bawah.
 
@@ -1750,4 +1770,4 @@ Gambar diatur agar memiliki ukuran penuh dan sudut melengkung.
 </html>
 ```
 ### Hasil
-![tantanganposition](positionnn.png)
+![tantanganposition](assetss/positionnn.png)

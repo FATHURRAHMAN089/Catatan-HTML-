@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "materi css/Catatan css/Pengenalan CSS .md",
+                "file": "materi css/Materi Eksplorasi css.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md",
+            "file": "materi css/Materi Eksplorasi css.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md",
+            "file": "materi css/Materi Eksplorasi css.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md"
+            "file": "materi css/Materi Eksplorasi css.md"
           }
         }
       }
@@ -142,10 +142,10 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
-    "materi css/Catatan css/assetss/flexbox_T.jpg",
-    "materi css/Bootstrap/Bootstrap Framework.md",
     "materi css/Catatan css/Pengenalan CSS .md",
     "materi css/Materi Eksplorasi css.md",
+    "materi css/Catatan css/assetss/flexbox_T.jpg",
+    "materi css/Bootstrap/Bootstrap Framework.md",
     "materi css/CSS.md",
     "CSS/Materi Eksplorasi css.md",
     "materi css/Catatan css/assetss/center.jpg",
@@ -157,7 +157,6 @@
     "materi css/Catatan css/assetss/minheight_pc.jpeg",
     "materi css/Catatan css/assetss/minheight_hp.jpeg",
     "materi css/Catatan css/assetss/maxheight_pc.jpeg",
-    "materi css/Catatan css/assetss/maxheight_hp.jpeg",
     "materi css/Catatan css/assetss",
     "materi css/Bootstrap/Bootstrap Framework.pdf",
     "materi css/Bootstrap/assets",
