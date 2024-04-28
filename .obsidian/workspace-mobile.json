@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/asets/Catatan Basis data .md",
+                "file": "materi css/Catatan css/Pengenalan CSS .md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis Data/asets/Catatan Basis data .md",
+            "file": "materi css/Catatan css/Pengenalan CSS .md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis Data/asets/Catatan Basis data .md",
+            "file": "materi css/Catatan css/Pengenalan CSS .md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,12 +122,11 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis Data/asets/Catatan Basis data .md"
+            "file": "materi css/Catatan css/Pengenalan CSS .md"
           }
         }
       }
-    ],
-    "currentTab": 0
+    ]
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,51 +142,51 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
-    "Basis Data/asets/IMG_08.jpg",
-    "Basis Data/asets/IMG_09.jpg",
-    "HTML/Assets/Catatan HTML .md",
-    "HTML/Assets/span.jpg",
-    "HTML/Assets/div.jpg",
-    "HTML/Assets/deskripsi.jpg",
-    "HTML/Pertemuan 1.md",
-    "Basis Data/asets/Catatan Basis data .md",
-    "Basis Data/Catatan Basis data .md",
-    "Basis Data/Select Lanjutan .md",
-    "IMG-20240116-WA0039 1.jpg.md",
-    "Basis Data/asets/tabel.jpg",
-    "Basis Data/Instalasi & Query awal Database .md",
-    "Basis Data/PENGENALAN Basis Data.md",
-    "HTML/Catatan HTML .md",
+    "materi css/Catatan css/assetss/flexbox_T.jpg",
+    "materi css/Bootstrap/Bootstrap Framework.md",
+    "materi css/Catatan css/Pengenalan CSS .md",
+    "materi css/Materi Eksplorasi css.md",
+    "materi css/CSS.md",
+    "CSS/Materi Eksplorasi css.md",
+    "materi css/Catatan css/assetss/center.jpg",
+    "materi css/Catatan css/assetss/capitalize.jpg",
+    "materi css/Catatan css/assetss/P_2.jpg",
+    "materi css/Catatan css/assetss/width.png",
+    "materi css/Catatan css/assetss/minwidth_pc.jpeg",
+    "materi css/Catatan css/assetss/minwidth_hp.jpeg",
+    "materi css/Catatan css/assetss/minheight_pc.jpeg",
+    "materi css/Catatan css/assetss/minheight_hp.jpeg",
+    "materi css/Catatan css/assetss/maxheight_pc.jpeg",
+    "materi css/Catatan css/assetss/maxheight_hp.jpeg",
+    "materi css/Catatan css/assetss",
+    "materi css/Bootstrap/Bootstrap Framework.pdf",
+    "materi css/Bootstrap/assets",
+    "materi css/Css Responsive/CSS Responsive.pdf",
+    "materi css/Css Responsive/CSS Responsive.md",
+    "materi css/Css Responsive/assets",
+    "materi css/Catatan css",
+    "materi css/Bootstrap",
+    "materi css/Css Responsive",
+    "materi css",
+    "CSS/Catatan css/assetss",
+    "CSS/Catatan css/Pengenalan CSS .md",
+    "CSS/Pengenalan CSS .md",
+    "CSS/Bootstrap/Bootstrap Framework.md",
+    "CSS/Css Responsive/CSS Responsive.md",
+    "CSS/eksplorasi css/Width dan height.md",
+    "Css Responsive/CSS Responsive.md",
     "HTML/(4)Pengenalan HTML.md",
+    "Bootstrap/Bootstrap Framework.md",
+    "Basis Data/Instalasi & Query awal Database .md",
+    "CSS/Materi eksplorasi .md",
+    "Basis Data/Select Lanjutan .md",
+    "Basis Data/ALTER.md",
+    "Basis Data/PENGENALAN Basis Data.md",
     "HTML/(3)DESKRIPSI HTML,CSS,JAVA SCRIPT DARI SEBUAH RUMAH.md",
-    "Basis Data/asets/deskripsi.jpg",
-    "IMG-20240117-WA0000.jpg.md",
-    "HTML/(2)SEJARAH ATAU TERCIPTANYA WEB.md",
-    "Asets 1.md",
-    "HTML/HTML.md",
-    "IMG3 (3).png.md",
-    "HTML/Assets/IMG_12.jpg",
-    "Basis Data/asets/span.jpg",
-    "Basis Data/asets/div.jpg",
-    "Basis Data/asets/Screenshot_2024-02-25-16-18-24-89_e3c1f266f17b29c7b40472751f031275.jpg",
-    "Spaces/Home",
-    "Spaces",
-    "Pasted image 20240129132103.png.md",
-    "Untitled.loom",
-    "Untitled 1.md",
-    "Untitled 1.loom",
-    "Spaces/Home/Untitled.md",
-    "Spaces/Home/Untitled 1.md",
-    "5_6123089390756434478.md",
-    "HTML/Assets/VID_1.mp4",
-    "HTML/Assets/Y2.mp3",
-    "HTML/Assets/IMG_a.md",
-    "HTML/Assets/IMG_14.jph.md",
-    "HTML/Assets/IMG_02.jpg.md",
-    "HTML/Assets",
-    "Asets/buat.md",
-    "asets",
-    "Basis Data/asets",
-    "audio03.mp3"
+    "IMG_20240219_120854.jpg.md",
+    "Basis Data/asets/Catatan Basis data .md",
+    "HTML/Assets/Catatan HTML .md",
+    "HTML/Pertemuan 1.md",
+    "Basis Data/Catatan Basis data .md"
   ]
 }
