@@ -487,7 +487,8 @@ SELECT * FROM mobil ORDER BY harga_rental ASC;
 ```
 #### Hasil
 
-![Gambar_ASC](ASC.jpg)
+![Gambar_ASC](asets/ASC.jpg)
+
 #### Analisis 
 
 `FROM mobil`: Ini menunjukkan bahwa tabel yang digunakan dalam query ini adalah "mobil". Anda mengambil semua data dari tabel ini.
@@ -506,7 +507,7 @@ SELECT * FROM mobil ORDER BY harga_rental DESC;
 ```
 #### Hasil
 
-![Gambar_DESC](DESC.jpg)
+![Gambar_DESC](asets/DESC.jpg)
 #### Analisis 
 
 `FROM mobil`: Ini menunjukkan bahwa tabel yang digunakan dalam query ini adalah "mobil". Anda mengambil semua data dari tabel ini.
@@ -525,7 +526,7 @@ SELECT DISTINCT(pemilik) FROM mobil;
 ```
 ### Hasil 
 
-![gambar_distinct1](Distinct_1.jpg)
+![gambar_distinct1](asets/Distinct_1.jpg)
 ### Analisis 
  `SELECT DISTINCT(pemilik)`: Digunakan untuk memilih nilai dari kolom "pemilik" dalam tabel "mobil". "DISTINCT" memastikan bahwa hanya nilai unik yang akan ditampilkan, sehingga tidak ada duplikat pada hasil.
 
@@ -541,7 +542,7 @@ SELECT DISTINCT(harga_rental) FROM mobil ORDER BY harga_rental DESC;
 ```
 ### Hasil
 
-![Distinct2](Distinct2.jpg)
+![Distinct2](asets/Distinct2.jpg)
 
 ### analisis 
  `SELECT DISTINCT(harga_rental)`: Digunakan untuk memilih nilai unik dari kolom "harga_rental" dalam tabel "mobil". Kata kunci "DISTINCT" memastikan bahwa hanya nilai unik yang akan ditampilkan, sehingga tidak ada duplikat di dalam hasil query.
@@ -560,7 +561,7 @@ Kesimpulannya Hasil query ini akan menghasilkan satu kolom tunggal yang berisi n
 SELECT CONCAT(pemilik,warna) FROM mobil;
 ```
 #### Hasil
-![Concat](Concat.jpg)
+![Concat](asets/Concat.jpg)
 #### Analisis 
 
 `SELECT`: Digunakan untuk memilih kolom yang akan ditampilkan dalam hasil query.
@@ -580,7 +581,7 @@ SELECT CONCAT_WS("-",no_plat,no_mesin,id_mobil) FROM mobil;
 
 ```
 #### Hasil
-![Concatws](Concatws.jpg)
+![Concatws](asets/Concatws.jpg)
 #### Analisis 
 `SELECT`: Digunakan untuk memilih kolom yang akan ditampilkan dalam hasil query.
 
@@ -602,7 +603,7 @@ COLLAB FROM mobil
 ```
 #### Hasil
 
-![concat_as](Concat_as.jpg)
+![concat_as](asets/Concat_as.jpg)
 #### Analisis 
  `SELECT`: Digunakan untuk memilih kolom yang akan ditampilkan dalam hasil query.
 
@@ -623,7 +624,7 @@ CREATE VIEW peminjam NULL AS SELECT id_mobil,no plat, peminjam, harga_rental FRO
 ```
 
 #### Hasil
-![Tantangan1](Tantangan1.jpg)
+![Tantangan1](asets/Tantangan1.jpg)
 
 ### 2. update atau ganti salah satu data peminjam dari tabel mobil dengan nilai NULL, tampilkan isi data pada tabel 
 
@@ -633,7 +634,7 @@ Update mobil SET peminjam=NULL WHERE id_mobil=3;
 ```
 
 #### Hasil
-![Tantangan2](Tantangan2.jpg)
+![Tantangan2](asets/Tantangan2.jpg)
 
 
 
@@ -653,10 +654,10 @@ SELECT SUM(harga_rental) FROM mobil;
 ```
 
 #### Hasil
-![Sum](SUM.jpg)
+![Sum](asets/SUM.jpg)
 #### Analisis 
 
-`SELECT SUM(harga_rental)`: Ini adalah bagian dari pernyataan SELECT yang mengambil nilai total dari kolom "harga_rental". SUM digunakan untuk menjumlahkan nilai-nilai dalam kolom tertentu.
+`SELECT SUM(harga_rental)`: Ini adalah bagian dari pernyataan SELECT yang mengambil nilai total dari kolom `harga_rental`. `SUM` digunakan untuk menjumlahkan nilai-nilai dalam kolom tertentu.
 
 `FROM mobil`: Ini menunjukkan bahwa tabel yang digunakan dalam query ini adalah "mobil". Anda mengambil nilai dari kolom "harga_rental" di dalam tabel ini.
 #### Kesimpulan 
@@ -673,14 +674,15 @@ SELECT COUNT(pemilik) FROM mobil;
 ```
 
 #### Hasil
-![count](Count.jpg)
+![count](asets/Count.jpg)
+
 #### Contoh Query 
 ```sql
 SELECT COUNT(peminjam) FROM mobil;
 ```
 
 #### Hasil
-![Count2](Count2.jpg)
+![Count2](asets/Count2.jpg)
 #### analisis 
 
 #### Kesimpulan 
@@ -700,7 +702,7 @@ SELECT MIN(harga_rental) AS MINIMAL FROM mobil;
 ```
 
 #### Hasil
-![Min](Min.jpg)
+![Min](asets/Min.jpg)
 #### analisis 
 #### Kesimpulan 
 
@@ -716,7 +718,8 @@ SELECT MAX(harga_rental) AS MAXIMAL FROM mobil;
 ```
 
 #### Hasil
-![Max](Max.jpg)
+![Max](asets/Max.jpg)
+
 #### analisis 
 #### Kesimpulan 
  
@@ -733,23 +736,9 @@ SELECT AVG(harga_rental) AS RATA_RATA FROM mobil;
 ```
 
 #### Hasil
-![Avg](AVG.jpg)
+![Avg](asets/AVG.jpg)
 #### analisis 
 #### Kesimpulan 
  
 
 
-## Alter
-### Menambahkan kolom
-#### Struktur query 
-```sql
-
-```
-#### Contoh Query 
-```sql
-
-```
-
-#### Hasil 
-#### Analisis 
-#### Kesimpulan 
