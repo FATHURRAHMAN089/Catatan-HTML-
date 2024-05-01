@@ -52,7 +52,7 @@ SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 150000;
 ![Gambar_BEETWEN](Asets/IMG_BEETWEN.jpg)
 
 ### Analisis
-Tujuan dari query `BETWEEN` ini adalah untuk mengambil semua kolom (`*`) dari tabel "mobil" di mana nilai kolom "harga_rental" berada di antara 100000 dan 150000.
+Tujuan dari query `BETWEEN` ini adalah untuk mengambil semua kolom (`*`) dari tabel `mobil`di mana nilai kolom `harga_rental` berada di antara 100000 dan 150000.
 ### Kesimpulan
 Kesimpulannya,Dengan menggunakan `BETWEEN`, kita dapat memilih baris yang memiliki nilai di antara dua nilai tertentu.contonhya, kalo kita  ingin mengambil baris dengan harga_rental antara 100000 dan 150000 maka yang tampil hanya harga mobil dengan harga 100000 dan 150000.
 
@@ -684,6 +684,7 @@ SELECT COUNT(peminjam) FROM mobil;
 #### Hasil
 ![Count2](asets/Count2.jpg)
 #### analisis 
+
 
 #### Kesimpulan 
  
