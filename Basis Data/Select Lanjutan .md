@@ -52,9 +52,9 @@ SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 150000;
 ![Gambar_BEETWEN](Asets/IMG_BEETWEN.jpg)
 
 ### Analisis
-Tujuan dari query `BETWEEN` ini adalah untuk mengambil semua kolom (`*`) dari tabel `mobil`di mana nilai kolom `harga_rental` berada di antara 100000 dan 150000.
+Tujuan dari query `BETWEEN` ini adalah untuk mengambil semua kolom (`*`) dari tabel `mobil`di mana nilai kolom `harga_rental` berada di antara `100000` dan `150000`.
 ### Kesimpulan
-Kesimpulannya,Dengan menggunakan `BETWEEN`, kita dapat memilih baris yang memiliki nilai di antara dua nilai tertentu.contonhya, kalo kita  ingin mengambil baris dengan harga_rental antara 100000 dan 150000 maka yang tampil hanya harga mobil dengan harga 100000 dan 150000.
+Kesimpulannya,Dengan menggunakan `BETWEEN`, kita dapat memilih baris yang memiliki nilai di antara dua nilai tertentu.contonhya, kalo kita  ingin mengambil baris dengan `harga_rental` antara `100000` dan `150000` maka yang tampil hanya harga mobil dengan harga `100000` dan `150000`.
 
 ---
 ## NOT BETWEEN
@@ -70,9 +70,13 @@ SELECT * FROM mobil WHERE harga_rental NOT  BETWEEN 100000 AND 150000;
 
 ![Gambar_1](asets/IMG_N.BEETWEN.jpg)
 ### Analisis
-Kegunaan dari `NOT BETWEEN` itu hampir sama dengan `BETWEEN` tetapi `NOT BETWEEN` ini berfungsi untuk menampilkan nilai yang ada dibawah harga mobil 100000 dan 150000 maka yang tampil itu hanya harga mobil yang 50000.
+
+`Select * from mobil` adalah nama tabelnya.
+`harga_rental` adalah Kolom yang diseleksi dengan menggunakan `SELECT *`.bagian `WHERE`,terdapat kondisi `harga_rental NOT BETWEEN 100000 AND 150000`.query ini akan mengambil baris-baris yang tidak memenuhi kondisi tersebut.
+`NOT BETWEEN 100000 AND 150000` Kondisi ini mengecek apakah nilai `harga_rental` tidak berada di antara `100.000` dan `150.000`. 
+Jadi, hasil dari query ini akan memberikan semua baris dari tabel "mobil" di mana nilai "harga_rental" tidak berada di antara `100.000` dan `150.000`.
 ### Kesimpulan
-Kesimpulannya `NOT BETWEEN` berfungsi untuk menampilkan nilai yang ada di bawah dari nilai yang di tampilkan.contonya kita memanggil harga yang 100000 maka yang akan tampil harga yang ada di bawah 100000 jadi yang tampil 50000.
+Kesimpulannya `NOT BETWEEN` berfungsi untuk menampilkan nilai yang ada di bawah dari nilai yang di tampilkan.contonya kita memanggil harga yang `100000` maka yang akan tampil harga yang ada di bawah `100000` jadi yang tampil `50000`.
 
 ---
 ## <=
@@ -88,9 +92,9 @@ SELECT * FROM mobil WHERE harga_rental <=50000;
 
 ![Gambar_<=](asets/IMG_2.jpg)
 ### Analisis
- `Select * from mobil` adalah nama Tabelnya dan `WHERE harga_rental` nama kolomnya,`<= 50000` Adalah kurang atau sama dengan artinya akan menampilkan daftar harga mobil yang ada di bawah 50000 atau sama dengan 50000,disini tidak ada yang harga mobil di bawah 50000 maka yang tampil hanya harga mobil yang berharga 50000.
+ `Select * from mobil` adalah nama Tabelnya dan `WHERE harga_rental` nama kolomnya,`<= 50000` Adalah kurang atau sama dengan artinya akan menampilkan daftar harga mobil yang ada di bawah `50000` atau sama dengan `50000`,disini tidak ada yang harga mobil di bawah `50000` maka yang tampil hanya harga mobil yang berharga `50000`.
 ### Kesimpulan
-Jadi, kesimpulannya adalah bahwa query `<=` ini akan mengambil mobil dengan harga tepat 50000 jika tidak ada mobil dengan harga di bawah 50000 yang ada dalam tabel.
+Jadi, kesimpulannya adalah bahwa query `<=` ini akan mengambil mobil dengan harga tepat `50000` jika tidak ada mobil dengan harga di bawah `50000` yang ada dalam tabel.
 
 ---
 ## >=
