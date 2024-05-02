@@ -11,11 +11,9 @@
             "id": "9ee72eb621157ca5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Basis Data/Select Lanjutan .md",
-                "mode": "source",
-                "source": false
+                "path": "pesonaindo.html/aset"
               }
             }
           }
@@ -93,7 +91,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis Data/Select Lanjutan .md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +107,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis Data/Select Lanjutan .md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -121,9 +117,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Basis Data/Select Lanjutan .md"
-          }
+          "state": {}
         }
       }
     ]
@@ -142,8 +136,22 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
-    "PHP/PHP .md",
+    "pesonaindo.html/Hasilnya pesona indo.md",
+    "pesonaindo.html/aset/hasil-3.png",
+    "pesonaindo.html/aset/hasil-2.png",
+    "pesonaindo.html/aset/hasil-1.png",
     "Basis Data/Select Lanjutan .md",
+    "pesonaindo.html/aset/three-horizontal-lines.webp",
+    "pesonaindo.html/aset/profil.png",
+    "pesonaindo.html/aset/logo.png",
+    "pesonaindo.html/aset/img-4.jpg",
+    "pesonaindo.html/aset/img-3.jpg",
+    "pesonaindo.html/aset/img-2.jpg",
+    "pesonaindo.html/aset/img-1.jpg",
+    "pesonaindo.html/aset",
+    "pesonaindo.html/index.html",
+    "pesonaindo.html",
+    "PHP/PHP .md",
     "materi css/Catatan css/Pengenalan CSS .md",
     "Untitled.md",
     "IMG_20240219_120854.jpg.md",
@@ -154,29 +162,16 @@
     "materi css/Css Responsive/CSS Responsive.md",
     "materi css/Css Responsive/Css Responsive.md",
     "materi css/Css Responsive/CSS Responsive.pdf",
-    "materi css/Css Responsive/assets/responsive-1.png",
     "materi css/Materi Eksplorasi css.md",
     "materi css/Catatan css/Materi Eksplorasi css.md",
-    "materi css/Catatan css/assetss/flexbox_T.jpg",
     "materi css/Bootstrap/Bootstrap Framework.md",
     "materi css/CSS.md",
     "CSS/Materi Eksplorasi css.md",
-    "materi css/Catatan css/assetss/center.jpg",
-    "materi css/Catatan css/assetss/capitalize.jpg",
-    "materi css/Catatan css/assetss/P_2.jpg",
-    "materi css/Catatan css/assetss/width.png",
-    "materi css/Catatan css/assetss/minwidth_pc.jpeg",
-    "materi css/Catatan css/assetss/minwidth_hp.jpeg",
-    "materi css/Catatan css/assetss/minheight_pc.jpeg",
-    "materi css/Catatan css/assetss/minheight_hp.jpeg",
     "materi css/Catatan css/assetss",
     "materi css/Bootstrap/Bootstrap Framework.pdf",
     "materi css/Bootstrap/assets",
     "materi css/Css Responsive/assets",
     "materi css/Catatan css",
-    "materi css/Bootstrap",
-    "materi css/Css Responsive",
-    "materi css",
     "CSS/Catatan css/Pengenalan CSS .md",
     "CSS/Pengenalan CSS .md",
     "CSS/Bootstrap/Bootstrap Framework.md",
@@ -185,8 +180,6 @@
     "Css Responsive/CSS Responsive.md",
     "HTML/(4)Pengenalan HTML.md",
     "Bootstrap/Bootstrap Framework.md",
-    "Basis Data/Instalasi & Query awal Database .md",
-    "CSS/Materi eksplorasi .md",
-    "Basis Data/PENGENALAN Basis Data.md"
+    "Basis Data/Instalasi & Query awal Database .md"
   ]
 }
