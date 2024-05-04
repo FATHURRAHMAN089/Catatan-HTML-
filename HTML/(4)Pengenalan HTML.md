@@ -813,7 +813,7 @@ contoh :
 
 **Hasil Formulir pendaftaran**:
 
-![Gambar_22](IMG_22.jpg)
+![Gambar_22](assets/IMG_22.jpg)
 
 
 
@@ -917,7 +917,7 @@ tag `<Div>` merupakan tag yang digunakan untuk membuat layer.
 
 #### Hasil
 
-![Gambar_div](asets/div.jpg)
+![Gambar_div](assets/div.jpg)
 
 
 ### Span
@@ -933,7 +933,7 @@ tag `<Div>` merupakan tag yang digunakan untuk membuat layer.
 
 #### Hasil
 
-![Gambar_span](asets/span.jpg)
+![Gambar_span](assets/span.jpg)
 
 
 

@@ -11,9 +11,11 @@
             "id": "9ee72eb621157ca5",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "pesonaindo.html/aset"
+                "file": "Basis Data/Select Lanjutan .md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,6 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Basis Data/Select Lanjutan .md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -107,6 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Basis Data/Select Lanjutan .md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +121,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Basis Data/Select Lanjutan .md"
+          }
         }
       }
     ]
@@ -136,18 +142,23 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
-    "pesonaindo.html/Hasilnya pesona indo.md",
-    "pesonaindo.html/aset/hasil-3.png",
-    "pesonaindo.html/aset/hasil-2.png",
-    "pesonaindo.html/aset/hasil-1.png",
+    "Basis Data/PENGENALAN Basis Data.md",
+    "Basis Data/ALTER.md",
+    "Basis Data/asets/ubah_nama.jpg",
+    "Basis Data/asets/menghapus_kolom.jpg",
     "Basis Data/Select Lanjutan .md",
-    "pesonaindo.html/aset/three-horizontal-lines.webp",
-    "pesonaindo.html/aset/profil.png",
-    "pesonaindo.html/aset/logo.png",
-    "pesonaindo.html/aset/img-4.jpg",
-    "pesonaindo.html/aset/img-3.jpg",
-    "pesonaindo.html/aset/img-2.jpg",
-    "pesonaindo.html/aset/img-1.jpg",
+    "materi css/Bootstrap/Bootstrap Framework.md",
+    "Basis Data/asets/Tambahan_1.jpg",
+    "Basis Data/asets/Screenshot_2024-04-23-15-15-06-01_84d3000e3f4017145260f7618db1d683.jpg",
+    "Basis Data/asets/hapus_constraint.jpg",
+    "Basis Data/asets/Screenshot_2024-05-04-11-29-39-65_84d3000e3f4017145260f7618db1d683.jpg",
+    "pesonaindo.html/Pesona indo.md",
+    "Basis Data/asets/constraint.jpg",
+    "Basis Data/asets/Screenshot_2024-04-23-15-00-03-00_84d3000e3f4017145260f7618db1d683.jpg",
+    "HTML/(4)Pengenalan HTML.md",
+    "Basis Data/Instalasi & Query awal Database .md",
+    "Basis Data/asets/NOT_NULL.jpg",
+    "Basis Data/asets/NULL.jpg",
     "pesonaindo.html/aset",
     "pesonaindo.html/index.html",
     "pesonaindo.html",
@@ -158,13 +169,11 @@
     "PHP",
     "5_6123089390756434478.md",
     "IMG-20240116-WA0039 1.jpg.md",
-    "Basis Data/ALTER.md",
     "materi css/Css Responsive/CSS Responsive.md",
     "materi css/Css Responsive/Css Responsive.md",
     "materi css/Css Responsive/CSS Responsive.pdf",
     "materi css/Materi Eksplorasi css.md",
     "materi css/Catatan css/Materi Eksplorasi css.md",
-    "materi css/Bootstrap/Bootstrap Framework.md",
     "materi css/CSS.md",
     "CSS/Materi Eksplorasi css.md",
     "materi css/Catatan css/assetss",
@@ -177,9 +186,6 @@
     "CSS/Bootstrap/Bootstrap Framework.md",
     "CSS/Css Responsive/CSS Responsive.md",
     "CSS/eksplorasi css/Width dan height.md",
-    "Css Responsive/CSS Responsive.md",
-    "HTML/(4)Pengenalan HTML.md",
-    "Bootstrap/Bootstrap Framework.md",
-    "Basis Data/Instalasi & Query awal Database .md"
+    "Css Responsive/CSS Responsive.md"
   ]
 }
