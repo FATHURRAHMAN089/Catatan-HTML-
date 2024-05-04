@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/Select Lanjutan .md",
+                "file": "materi css/Catatan css/Pengenalan CSS .md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis Data/Select Lanjutan .md",
+            "file": "materi css/Catatan css/Pengenalan CSS .md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis Data/Select Lanjutan .md",
+            "file": "materi css/Catatan css/Pengenalan CSS .md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis Data/Select Lanjutan .md"
+            "file": "materi css/Catatan css/Pengenalan CSS .md"
           }
         }
       }
@@ -142,23 +142,23 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
-    "Basis Data/PENGENALAN Basis Data.md",
     "Basis Data/ALTER.md",
+    "Basis Data/Select Lanjutan .md",
+    "Basis Data/asets/not_like.jpg",
+    "Basis Data/asets/hapus_tabel_virtual.jpg",
+    "Basis Data/asets/tabel_virtual.jpg",
+    "Basis Data/asets/buat_tabelvirtual.jpg",
+    "Basis Data/asets/Screenshot_2024-05-04-15-05-15-64_84d3000e3f4017145260f7618db1d683.jpg",
+    "Basis Data/asets/Screenshot_2024-05-04-15-05-03-87_84d3000e3f4017145260f7618db1d683.jpg",
+    "pesonaindo.html/Pesona indo.md",
+    "Basis Data/asets/Limit.jpg",
+    "Basis Data/PENGENALAN Basis Data.md",
     "Basis Data/asets/ubah_nama.jpg",
     "Basis Data/asets/menghapus_kolom.jpg",
-    "Basis Data/Select Lanjutan .md",
     "materi css/Bootstrap/Bootstrap Framework.md",
     "Basis Data/asets/Tambahan_1.jpg",
-    "Basis Data/asets/Screenshot_2024-04-23-15-15-06-01_84d3000e3f4017145260f7618db1d683.jpg",
-    "Basis Data/asets/hapus_constraint.jpg",
-    "Basis Data/asets/Screenshot_2024-05-04-11-29-39-65_84d3000e3f4017145260f7618db1d683.jpg",
-    "pesonaindo.html/Pesona indo.md",
-    "Basis Data/asets/constraint.jpg",
-    "Basis Data/asets/Screenshot_2024-04-23-15-00-03-00_84d3000e3f4017145260f7618db1d683.jpg",
     "HTML/(4)Pengenalan HTML.md",
     "Basis Data/Instalasi & Query awal Database .md",
-    "Basis Data/asets/NOT_NULL.jpg",
-    "Basis Data/asets/NULL.jpg",
     "pesonaindo.html/aset",
     "pesonaindo.html/index.html",
     "pesonaindo.html",

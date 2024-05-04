@@ -1,11 +1,4 @@
 
-
-# Kode program 
-```css
-
-```
-
-
 # Hasilnya 
 
 ![hasil_1](aset/hasil-1.png)

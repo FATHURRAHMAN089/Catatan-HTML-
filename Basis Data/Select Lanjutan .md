@@ -50,7 +50,7 @@ SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 150000;
 ```
 #### Hasil
 
-![Gambar_BEETWEN](Asets/IMG_BEETWEN.jpg)
+![Gambar_BEETWEN](IMG_BEETWEN.jpg)
 
 #### Analisis
 Tujuan dari query `BETWEEN` ini adalah untuk mengambil semua kolom (`*`) dari tabel `mobil`di mana nilai kolom `harga_rental` berada di antara `100000` dan `150000`.
@@ -299,7 +299,7 @@ Kesimpulannya sama dengan yang diatas tetapi ini akan menampilkan daftar harga y
 
 ```
 SELECT * FROM nama_tabel
-WHERE nama_kolom LIKE '_%';
+WHERE nama_kolom LIKE 'awalan%';
 ```
 
 #### Contoh Query 
@@ -325,7 +325,7 @@ Misalnya, jika Anda memiliki kondisi `where` `nama LIKE 'f%'`, maka akan mencoco
 
 ```
 SELECT * FROM nama_tabel
-WHERE nama_kolom LIKE '%_';
+WHERE nama_kolom LIKE '%akhiran';
 ```
 
 #### Contoh Query
@@ -373,8 +373,8 @@ Kesimpulannya kalo kita ingin Mencari awalan dan akhirannya kita tinggal masukka
 ### berdasarkan total karakter
 #### struktur query
 ```
-SELECT * FROM mobil
-WHERE peminjam LIKE 'n';
+SELECT * FROM nama_tabel
+WHERE nama_kolom LIKE 'n';
 ```
 
 #### Contoh
@@ -385,7 +385,7 @@ WHERE peminjam LIKE 'f____';
 
 #### Hasil
 
-![total_katakter f_](total_karakter.jpg)
+![total_katakter f_](asets/total_karakter.jpg)
 
 #### Analisis
 Pernyataan `SELECT * FROM mobil` akan mengambil semua kolom (semua atribut) dari tabel 'mobil'. 
@@ -393,13 +393,6 @@ Pernyataan `SELECT * FROM mobil` akan mengambil semua kolom (semua atribut) dari
 
 #### kesimpulan 
 Kesimpulannya,kalo kita ingin Mencari nama peminjam dengan menggunakan total karakter,gunakan LIKE `F` awalan dari namanya dan `__` adalah jumlah total karakter dari mamanya.
-
-___
-
-#### struktur query
-```
-
-```
 
 #### Contoh
 ```sql
@@ -412,13 +405,17 @@ WHERE peminjam LIKE '_____';
 ![total_karakter __](total_karakter__.jpg)
 #### analisis
 
+`Select * from mobil` nama tabel yang digunakan,`WHERE peminjam` nama kolomnya Dengan menggunakan `*` dalam pernyataan `SELECT`, query ini akan mengambil semua kolom yang ada dalam tabel `mobil`.`peminjam LIKE '_____'`  Kondisi WHERE digunakan untuk memfilter baris berdasarkan nilai kolom `peminjam`.kolom `peminjam` harus memenuhi pola
+Terdiri dari tepat lima karakter ditandai dengan (`____`).jadi hasilnya disini adalah `Fatur` karena memenuhi persyaratannya.
 
 #### kesimpulan 
+Kesimpulannya adalah query ini akan mengambil semua baris dari tabel `mobil` di mana nilai kolom `peminjam` terdiri dari tepat lima karakter.
+
 ### Kombinasi
 #### struktur query
 ```
-SELECT * FROM mobil
-WHERE peminjam LIKE '_%';
+SELECT * FROM nama_tabel
+WHERE nama_kolom LIKE '_%';
 ```
 
 #### Contoh
@@ -431,11 +428,14 @@ WHERE peminjam LIKE '____n%';
 
 ![kombinasi](kombinasi_1.jpg)
 #### analisis
-
+`SELECT * FROM mobil` ini adalah nama tabelnya
+`WHERE peminjam LIKE ____n%`: Ini adalah klausa `WHERE` yang digunakan untuk mencari baris.kita menggunakan operator `LIKE` untuk membandingkan nilai kolom `peminjam` dengan pola tertentu.
+`peminjam` Ini adalah nama kolom yang digunakan dalam kondisi pencarian.
+`LIKE` Ini adalah operator yang digunakan untuk mencocokkan nilai kolom dengan pola yang diberikan.
+ `____n%`: Ini adalah pola pencocokannya. Dalam pola ini, garis bawah (`_`) mewakili satu karakter tunggal, dan huruf `n` harus diikuti oleh karakter apa pun. Tanda `%` menunjukkan bahwa ada nol atau lebih karakter yang dapat mengikuti pola tersebut.
 
 #### Kesimpulan
-
-
+Kesimpulannya,query ini akan mengambil semua baris dari tabel `mobil` di mana nilai kolom `peminjam` dimulai dengan empat karakter apa pun dan diikuti oleh huruf `n`
 
 ### Not Like
 #### Struktur Query 
@@ -444,11 +444,18 @@ SELECT * FROM nama_tabel WHERE nama_kolom NOT LIKE 'A%';
 ```
 #### Contoh Query 
 ```sql
-SELECT * FROM mobil WHERE peminjam NOT LIKE 'A%';
+SELECT * FROM data_mobil WHERE peminjam NOT LIKE 'A%';
 ```
 #### Hasil
+
+![not_like](asets/not_like.jpg)
 #### Analisis 
+
+`select * from data_mobil` Query ini akan mengambil semua kolom dan data dari tabel `data_mobil`.Perintah `SELECT` digunakan untuk mengambil data dari tabel.kita hanya mengambil data di mana nilai kolom `peminjam` tidak dimulai dengan huruf 'A'.kita menggunakan `NOT LIKE` untuk membalikkan kondisi, sehingga hanya data dengan nilai kolom `peminjam` yang tidak dimulai dengan huruf `A` yang akan dipilih.
+
 #### Kesimpulan 
+Kesimpulannya,akan mengambil semua data dari tabel `data_mobil` di mana nilai kolom `peminjam` tidak dimulai dengan huruf `A`.
+
 ## NULL & NOT NULL
 ### NULL
 #### Struktur query 
@@ -529,6 +536,22 @@ SELECT * FROM mobil ORDER BY harga_rental DESC;
 #### Kesimpulan
 Kesimpulannya,Hasilnya akan menampilkan dari harga terbesar dulu hingga terkecil.
 ### Limit
+#### contoh Query 
+
+```sql
+SELECT * FROM data_mobil WHERE warna = 'Hitam' ORDER BY harga_rental ASC LIMIT 2;
+```
+
+#### Hasil
+
+![limit](asets/Limit.jpg)
+
+#### analisis 
+
+`SELECT * FROM data_mobil` adalah nama tabelnya. `WHERE warna = 'Hitam'`
+Kondisi WHERE digunakan untuk mencari baris berdasarkan nilai kolom `warna`.`ORDER BY harga_rental ASC` ORDER BY digunakan untuk mengurutkan baris berdasarkan kolom `harga_rental`. Dalam hal ini, baris-baris akan diurutkan secara menaik (`ASC`) berdasarkan nilai kolom `harga_rental`.`LIMIT 2` digunakan untuk membatasi jumlah baris yang dikembalikan oleh query.jadi tampilannya yang awalnya warna `hitam` ada 3 Menjadi 2 karena menggunakan `LIMIT 2`.
+#### Kesimpulan 
+Kesimpulannya,`LIMIT` akan membatasi jumlah baris yang ditampilkan,dengan kondisi bahwa mobil tersebut memiliki warna `Hitam`.Baris-baris tersebut akan diurutkan berdasarkan harga rental secara menaik (`ASC`), dan hanya dua baris yang ditampilkan.
 
 ## DISTINCT
 
@@ -616,6 +639,70 @@ Hasil query tersebut akan menghasilkan satu kolom tunggal dengan nama `COLLAB` y
 #### Kesimpulan 
 Pada query SQL ini, `SELECT CONCAT_WS("+", pemilik, peminjam) AS COLLAB FROM mobil;`untuk menyeleksi data dari tabel "`mobil`" dengan melakukan penggabungan antara kolom `pemilik` dan `peminjam` menggunakan pemisah `+` (`plus`) sebagai `CONCAT_WS`. Hasil penggabungan diberi alias `COLLAB` pada hasil query.
 ## View
+### Membuat tabel virtual 
+
+#### Contoh Query 
+```sql
+CREATE VIEW info_no_plat AS
+SELECT id_mobil, no_plat, pemilik, peminjam
+FROM data_mobil
+WHERE pemilik = "Fatur";
+```
+
+#### Hasil
+
+![membuat_tabelvirtual](asets/buat_tabelvirtual.jpg)
+#### Analisis
+`CREATE VIEW info_no_plat AS` Ini adalah untuk membuat sebuah view baru dengan nama `info_no_plat`.`SELECT id_mobil, no_plat, pemilik, peminjam` Ini adalah perintah untuk memilih kolom-kolom `id_mobil, no_plat, pemilik, dan peminjam` dari `tabel data_mobil`.`FROM data_mobil` Ini adalah perintah untuk menentukan bahwa data diambil dari tabel bernama `data_mobil`.`WHERE pemilik = "Fatur"` Ini untuk mengatur bahwa hanya baris-baris yang memiliki namab`Fatur` di kolom pemilik yang akan dimasukkan ke dalam view tersebut.
+
+#### Kesimpulan 
+Kesimpulannya, digunakan untuk membuat view baru dengan nama `info_no_plat`. View ini akan menampilkan data dari tabel `data_mobil`, tetapi hanya data yang memiliki nilai `Fatur` di kolom pemilik. Data yang ditampilkan pada kolom `id_mobil, no_plat, pemilik, dan peminjam`.
+
+### Menampilkan tabel virtual 
+
+#### Struktur query 
+```sql
+SELECT * FROM nama_tabel_virtual;
+```
+#### Contoh Query 
+```sql
+SELECT * FROM info_no_plat;
+```
+
+#### Hasil
+
+![tabel_virtual](asets/tabel_virtual.jpg)
+
+#### Analisis
+
+`Select * from info_no_plat` akan menampilkan tabel virtual yang sudah kita buat tadi dengan nama `info_no_plat`.
+#### Kesimpulan 
+
+Kesimpulannya,Dengan menjalankan query ini, kita dapat menampilkan  semua data yang ada dalam view `info_no_plat`. Data yang akan ditampilkan adalah kolom `id_mobil`, `no_plat`, `pemilik`, dan `peminjam` dari tabel `data_mobil` yang memenuhi kondisi `pemilik = "Fatur"`.
+
+### Menghapus tabel virtual 
+
+#### Struktur Query 
+
+```sql
+SELECT * FROM nama_tabel_virtual;
+```
+
+#### Contoh Query 
+
+```sql
+DROP VIEW info_no_plat;
+```
+
+#### Hasil
+
+![menghapus tabel virtual ](asets/hapus_tabel_virtual.jpg)
+#### Analisis
+menghapus view `info_no_plat` .
+Perintah `DROP VIEW` digunakan untuk menghapus view yang sudah kita buat sebelumnya.Jadi, dengan menjalankan query ini, view `info_no_plat` akan dihapus.
+
+#### Kesimpulan 
+Kesimpulannya,dengan menjalankan query ini, view `info_no_plat` akan dihapus beserta isinya.
 
 ## Tantangan 
 ### 1. Buatkan tabel virtual dan tampilkan datanya yang mana peminjamannya itu tidak ada (NULL)
@@ -627,7 +714,12 @@ CREATE VIEW peminjam NULL AS SELECT id_mobil,no plat, peminjam, harga_rental FRO
 
 #### Hasil
 ![Tantangan1](asets/Tantangan1.jpg)
-
+#### analisis
+`CREATE VIEW peminjam_NULL AS` adalah perintah untuk membuat sebuah view baru dengan nama `peminjam_NULL`.`SELECT id_mobil, no plat, peminjam, harga_rental
+adalah perintah untuk memilih kolom-kolom  dari tabel mobil. FROM mobil nama tabelya  
+`WHERE peminjam IS NULL`  adalah untuk mengatur bahwa hanya baris-baris yang memiliki nilai `NULL` di kolom peminjam yang akan dimasukkan ke dalam view 
+#### Kesimpulan 
+Kesimpulannya,`peminjam_NULL`. View ini akan menampilkan data dari tabel mobil dimana nilai kolom peminjam adalah `NULL`. 
 ### 2. update atau ganti salah satu data peminjam dari tabel mobil dengan nilai NULL, tampilkan isi data pada tabel 
 
 #### Contoh Query 
@@ -642,7 +734,7 @@ Update mobil SET peminjam=NULL WHERE id_mobil=3;
 
 ### 3. Berikan Kesimpulan mengapa tabel virtual ini dibuat
 
-
+Karena tabel virtual sederhana dan fleksibel jadi memungkinkan penggunanya dapat melihat data lebih dari 1 tabel tanpa harus menyimpannya.
 
 ## AGREGASI
 ### Sum
