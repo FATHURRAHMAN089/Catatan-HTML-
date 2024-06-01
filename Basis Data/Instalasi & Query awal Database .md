@@ -543,7 +543,7 @@ Mysql > UPDATE nama_tabel SET nama_kolom WHERE kondisi;
 ```sql
 Update pelanggan SET nama_belakang="Rahman" WHERE id_pelanggan="1";
 ```
-
+insert into data_mobil values(8,"DD 9980 JH","KHI2304","Orange","rahmat","Ahsan","150000");
 ## Hasil
 ![Gambar_07](Assets/IMG_07.jpg)
 

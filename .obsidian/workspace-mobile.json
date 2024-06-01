@@ -11,11 +11,9 @@
             "id": "9ee72eb621157ca5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "materi css/Catatan css/Pengenalan CSS .md",
-                "mode": "source",
-                "source": false
+                "path": "Basis Data new"
               }
             }
           }
@@ -93,7 +91,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +107,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -121,9 +117,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md"
-          }
+          "state": {}
         }
       }
     ]
@@ -142,50 +136,51 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
+    "PHP/PHP MYSQL.md",
+    "PHP/aset/user.png",
+    "PHP/aset/Upload.png",
+    "PHP/aset/ubah_3.png",
+    "PHP/aset/ubah_2.png",
+    "PHP/aset/ubah_1.png",
+    "PHP/aset/tampilkan_data.png",
+    "PHP/aset/Tambah_3.png",
+    "PHP/aset/Tambah_2.png",
+    "PHP/aset/Tambah_1.png",
+    "PHP/aset/session.png",
+    "PHP/aset",
+    "PHP Mysql/PHP MYSQL.md",
+    "PHP Mysql/aset",
+    "PHP Mysql",
+    "PHP/PHP Dasar.md",
+    "PHP/Aasets",
+    "PHP",
+    "Basis Data new/Select Lanjutan .md",
+    "Basis Data new/PENGENALAN Basis Data.md",
+    "Basis Data new/Instalasi & Query awal Database .md",
+    "Basis Data new/GROUP BY & HAVING.md",
+    "Basis Data new/Basis Data.md",
+    "Basis Data new/asets/Untitled.md",
+    "Basis Data new/asets/Catatan Basis data .md",
+    "Basis Data new/asets",
+    "Basis Data new/ALTER.md",
+    "Basis Data new",
+    "PHP/PHP .md",
+    "Basis Data/Instalasi & Query awal Database .md",
+    "Basis Data/PENGENALAN Basis Data.md",
     "Basis Data/ALTER.md",
     "Basis Data/Select Lanjutan .md",
-    "Basis Data/asets/not_like.jpg",
-    "Basis Data/asets/hapus_tabel_virtual.jpg",
-    "Basis Data/asets/tabel_virtual.jpg",
-    "Basis Data/asets/buat_tabelvirtual.jpg",
-    "Basis Data/asets/Screenshot_2024-05-04-15-05-15-64_84d3000e3f4017145260f7618db1d683.jpg",
-    "Basis Data/asets/Screenshot_2024-05-04-15-05-03-87_84d3000e3f4017145260f7618db1d683.jpg",
+    "Basis Data/GROUP BY & HAVING.md",
+    "materi css/CSS.md",
+    "materi css/Catatan css/Materi Eksplorasi css.md",
+    "materi css/Catatan css/Pengenalan CSS .md",
     "pesonaindo.html/Pesona indo.md",
-    "Basis Data/asets/Limit.jpg",
-    "Basis Data/PENGENALAN Basis Data.md",
-    "Basis Data/asets/ubah_nama.jpg",
-    "Basis Data/asets/menghapus_kolom.jpg",
     "materi css/Bootstrap/Bootstrap Framework.md",
-    "Basis Data/asets/Tambahan_1.jpg",
     "HTML/(4)Pengenalan HTML.md",
-    "Basis Data/Instalasi & Query awal Database .md",
     "pesonaindo.html/aset",
     "pesonaindo.html/index.html",
     "pesonaindo.html",
-    "PHP/PHP .md",
-    "materi css/Catatan css/Pengenalan CSS .md",
-    "Untitled.md",
     "IMG_20240219_120854.jpg.md",
-    "PHP",
     "5_6123089390756434478.md",
-    "IMG-20240116-WA0039 1.jpg.md",
-    "materi css/Css Responsive/CSS Responsive.md",
-    "materi css/Css Responsive/Css Responsive.md",
-    "materi css/Css Responsive/CSS Responsive.pdf",
-    "materi css/Materi Eksplorasi css.md",
-    "materi css/Catatan css/Materi Eksplorasi css.md",
-    "materi css/CSS.md",
-    "CSS/Materi Eksplorasi css.md",
-    "materi css/Catatan css/assetss",
-    "materi css/Bootstrap/Bootstrap Framework.pdf",
-    "materi css/Bootstrap/assets",
-    "materi css/Css Responsive/assets",
-    "materi css/Catatan css",
-    "CSS/Catatan css/Pengenalan CSS .md",
-    "CSS/Pengenalan CSS .md",
-    "CSS/Bootstrap/Bootstrap Framework.md",
-    "CSS/Css Responsive/CSS Responsive.md",
-    "CSS/eksplorasi css/Width dan height.md",
-    "Css Responsive/CSS Responsive.md"
+    "IMG-20240116-WA0039 1.jpg.md"
   ]
 }
