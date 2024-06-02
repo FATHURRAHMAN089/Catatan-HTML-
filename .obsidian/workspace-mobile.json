@@ -11,9 +11,11 @@
             "id": "9ee72eb621157ca5",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Basis Data new"
+                "file": "Query/Praktikum 6.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -117,7 +119,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Query/Catatan.md"
+          }
         }
       }
     ]
@@ -134,8 +138,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9ee72eb621157ca5",
+  "active": "101dc0828dd5b283",
   "lastOpenFiles": [
+    "Query/Praktikum 6.md",
+    "pesonaindo.html/Pesona indo.md",
+    "Query/Catatan.md",
+    "PHP Mysql/PHP MYSQL.md",
     "PHP/PHP MYSQL.md",
     "PHP/aset/user.png",
     "PHP/aset/Upload.png",
@@ -148,7 +156,6 @@
     "PHP/aset/Tambah_1.png",
     "PHP/aset/session.png",
     "PHP/aset",
-    "PHP Mysql/PHP MYSQL.md",
     "PHP Mysql/aset",
     "PHP Mysql",
     "PHP/PHP Dasar.md",
@@ -173,14 +180,11 @@
     "materi css/CSS.md",
     "materi css/Catatan css/Materi Eksplorasi css.md",
     "materi css/Catatan css/Pengenalan CSS .md",
-    "pesonaindo.html/Pesona indo.md",
     "materi css/Bootstrap/Bootstrap Framework.md",
     "HTML/(4)Pengenalan HTML.md",
     "pesonaindo.html/aset",
     "pesonaindo.html/index.html",
     "pesonaindo.html",
-    "IMG_20240219_120854.jpg.md",
-    "5_6123089390756434478.md",
-    "IMG-20240116-WA0039 1.jpg.md"
+    "IMG_20240219_120854.jpg.md"
   ]
 }
