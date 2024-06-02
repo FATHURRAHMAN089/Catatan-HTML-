@@ -11,11 +11,9 @@
             "id": "9ee72eb621157ca5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Query/Praktikum 6.md",
-                "mode": "source",
-                "source": false
+                "path": "PRAKTIKUM 7"
               }
             }
           }
@@ -119,9 +117,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Query/Catatan.md"
-          }
+          "state": {}
         }
       }
     ]
@@ -138,7 +134,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "101dc0828dd5b283",
+  "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
     "Query/Praktikum 6.md",
     "pesonaindo.html/Pesona indo.md",
