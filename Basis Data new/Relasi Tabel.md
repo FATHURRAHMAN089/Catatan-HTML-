@@ -2,7 +2,7 @@
 
 ## Hasil
 
-![Pegawai](Asets/pegawai.png)
+![Pegawai](asets/pegawai.png)
 
 
 
@@ -21,9 +21,9 @@
 
 ### Before
 
-![Pegawai before](Asets/Pegawai.png)
+![Pegawai before](asets/Pegawai.png)
 ### After
-![Pegawai after](Asets/Pegawai_data.png)
+![Pegawai after](asets/Pegawai_data.png)
 ## Cabang
 
 ### Before
@@ -31,12 +31,12 @@
 ![Cabang](asets/cabangB.png)
 
 ### After
-![Cabang](Asets/cabangA.png)
+![Cabang](asets/cabangA.png)
 
 
 # Hasil Relasi Pegawai & Cabang
 
-![Hasil relasi](Asets/Relasi1.png)
+![Hasil relasi](asets/Relasi1.png)
 
 # Query dan hasil 
-![query relasi](Asets/query_relasi.png)
+![query relasi](asets/query_relasi.png)

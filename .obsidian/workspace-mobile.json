@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data new/Materi dasar Basis data.md",
+                "file": "Basis Data new/Relasi Tabel.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis Data new/Materi dasar Basis data.md",
+            "file": "Basis Data new/Relasi Tabel.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis Data new/Materi dasar Basis data.md",
+            "file": "Basis Data new/Relasi Tabel.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis Data new/Materi dasar Basis data.md"
+            "file": "Basis Data new/Relasi Tabel.md"
           }
         }
       }
@@ -142,9 +142,9 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
+    "Basis Data new/Materi dasar Basis data.md",
     "Proyek(Copy)/README.MD.md",
     "Basis Data new/Materi dasar Basis data.pdf",
-    "Basis Data new/Materi dasar Basis data.md",
     "Query/Praktikum 6.md",
     "Query/PRAKTIKUM 7.pdf",
     "Query/Praktikum 6.pdf",
