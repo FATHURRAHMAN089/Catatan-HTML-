@@ -87,21 +87,21 @@ dan pada kolom Nilai terdapat 574, 57.4, 5.74, 0.577,315, 31.5, 3.15, 0.315.
 ![Tabel2](AsetQ/Tabel_Indeks.png)
 
 
-`SELECT` = untuk memilih Kolom mana Saja Yang ingin dipilih untuk ditampilkan/dihitung.
-`Indeks` = merupakan nama kolom Yang dipilih untuk ditampilkan.
-`Nilai` = nama kolom Yang ingin ditampilkan,
-`CEILING` (Nilai) = untuk membulatkan bilangan Pecahan ke atas. Nilai adalah kolom
-Yang dipilih untuk dibulatkan datanya Jadi semisal 57.4 dibulatkan ke atas jadi 58.
-`AS ceilval` = untuk mengganti nama dari kolom hasil CEILING (nilai) menradi ceival untuk sementara,
-`FlooR (Nilai)` =untuk membulatkan kolom Yang dipilih bilangan desimal ke bawah nilai adalah kolom Yang dililih untuk dibulatkan datanya Jadi semisal 57.4 dibulatkan ke bawah Jadi 57.
-`As Fival`= untuk mengganti nama, dari, kolom hasil Floor (Nibi) menjodi Flval sementara.
-`ROUND (Nilai, 2)` = membulatkan bilangan dari kolom Nilai Sampai Jumlah digit tertentu
-Sesuai dengan Pilihan yang dibuat Yaitu 2.semisal 574 dibulatkan 2 kali jadi 574.00.
-`As Rnd2val` = untuk mengganti nama dari kolom hasil `ROUND (Nilai, 2)` menjadi `Rnd2val`
-untuk sementara.
- `ROUND (nilai, 0)` = untuk membulatkan bilangan dari kolom nilai sampai jumlah tertentu Yaitu 0. Semisal 574 dibulatkan 0 kali jadi 574 karena o kali berarti tidak dibulatkan.
- `AS Rndoval` = untuk mengganti nama dari kolom hasil `ROUND (Nilai,0)` menjadi `Rndoval` untuk sementara.
-`ROUND (Nilai,-1)` = untuk membulatkan bilangan dari kolom nilai sampai Jumlah tertentu Yaitu -1. semisal 574 jika dibawah 5 maka Jadi 570 Jika diatasnya Jadi 580.
-`As Rnd-1val` = untuk mengganti nama dari kolom hasil `ROUND (Nilai, -1)` menjadi Rnd-1val. untuk sementara.
-`FROM angka` = untuk memilih dari tabel mana yang datanya ingin ditampilkan angka adalah nama tabel Yang dipilih.
-`Hasilnya` = merupakan hasil bulatan berbagai nilai memakai `ceiling`, `fror` dan `ROUND`.
+- `SELECT` = untuk memilih Kolom mana Saja Yang ingin dipilih untuk ditampilkan/dihitung.
+- `Indeks` = merupakan nama kolom Yang dipilih untuk ditampilkan.
+- `Nilai` = nama kolom Yang ingin ditampilkan,
+- `CEILING` (Nilai) = untuk membulatkan bilangan Pecahan ke atas. Nilai adalah kolom
+  Yang dipilih untuk dibulatkan datanya Jadi semisal 57.4 dibulatkan ke atas jadi 58.
+- `AS ceilval` = untuk mengganti nama dari kolom hasil CEILING (nilai) menradi ceival untuk sementara,
+- `FlooR (Nilai)` =untuk membulatkan kolom Yang dipilih bilangan desimal ke bawah nilai adalah kolom Yang dililih untuk dibulatkan datanya Jadi semisal 57.4 dibulatkan ke bawah Jadi 57.
+- `As Fival`= untuk mengganti nama, dari, kolom hasil Floor (Nibi) menjodi Flval sementara.
+- `ROUND (Nilai, 2)` = membulatkan bilangan dari kolom Nilai Sampai Jumlah digit tertentu
+  Sesuai dengan Pilihan yang dibuat Yaitu 2.semisal 574 dibulatkan 2 kali jadi 574.00.
+- `As Rnd2val` = untuk mengganti nama dari kolom hasil `ROUND (Nilai, 2)` menjadi `Rnd2val`
+  untuk sementara.
+ - `ROUND (nilai, 0)` = untuk membulatkan bilangan dari kolom nilai sampai jumlah tertentu Yaitu 0. Semisal 574 dibulatkan 0 kali jadi 574 karena o kali berarti tidak dibulatkan.
+ - `AS Rndoval` = untuk mengganti nama dari kolom hasil `ROUND (Nilai,0)` menjadi `Rndoval` untuk sementara.
+- `ROUND (Nilai,-1)` = untuk membulatkan bilangan dari kolom nilai sampai Jumlah tertentu Yaitu -1. semisal 574 jika dibawah 5 maka Jadi 570 Jika diatasnya Jadi 580.
+- `As Rnd-1val` = untuk mengganti nama dari kolom hasil `ROUND (Nilai, -1)` menjadi Rnd-1val. untuk sementara.
+- `FROM angka` = untuk memilih dari tabel mana yang datanya ingin ditampilkan angka adalah nama tabel Yang dipilih.
+- `Hasilnya` = merupakan hasil bulatan berbagai nilai memakai `ceiling`, `fror` dan `ROUND`.
