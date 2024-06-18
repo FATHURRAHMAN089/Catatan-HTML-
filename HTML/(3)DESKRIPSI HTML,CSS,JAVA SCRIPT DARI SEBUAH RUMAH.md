@@ -1,5 +1,5 @@
 
-![Gambar_deskripsi](asets/deskripsi.jpg)
+![Gambar_deskripsi](assets/deskripsi.jpg)
 # DESKRIPSI 
 
 - **HTML** adalah bagian kerangka atau pondasi awal untuk membuat sebuah rumah.

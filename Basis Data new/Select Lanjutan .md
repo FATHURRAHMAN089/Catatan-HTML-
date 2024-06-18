@@ -50,7 +50,7 @@ SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 150000;
 ```
 #### Hasil
 
-![Gambar_BEETWEN](IMG_BEETWEN.jpg)
+![Gambar_BEETWEN](asets/IMG_BEETWEN.jpg)
 
 #### Analisis
 Tujuan dari query `BETWEEN` ini adalah untuk mengambil semua kolom (`*`) dari tabel `mobil`di mana nilai kolom `harga_rental` berada di antara `100000` dan `150000`.
