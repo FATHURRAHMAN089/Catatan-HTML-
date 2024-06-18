@@ -88,7 +88,7 @@ Show databases;
 ```
 
 ### Hasil
-![Gambar-02](Asets/Tampilkan_database.jpg)
+![Gambar-02](Asets/show_databases.jpg)
 
 ### **Analisis**:
 **==Show Databases==** Berfungsi untuk menampilkan database yang kita buat.
@@ -202,7 +202,7 @@ CREATE TABLE nama_tabel (
 
 ### Contoh:
 
-![Gambar-06](Asets/teks.jpg)
+![Gambar-06](Asets/step.jpg)
 
 ### Analisis
 - Kolom ==nama== diubah menjadi VARCHAR(50) agar nama dapat maksimal 50 karakter
@@ -214,8 +214,6 @@ CREATE TABLE nama_tabel (
 - Batasan "NOT NULL" juga ditambahkan ke kolom "status" untuk memastikan bahwa kolom tersebut harus memiliki nilai.
 
 ### Kesimpulan
-
-
 
 Dalam contoh tersebut, **nama** menggunakan tipe data **char** dengan panjang tetap, `alamat` menggunakan tipe data `VARCHAR` dengan panjang variabel, `catatan` menggunakan tipe data `TEXT` untuk menyimpan teks yang mungkin panjangnya bervariasi, dan `status` menggunakan tipe data `ENUM` untuk membatasi nilai yang mungkin.
 ## tanggal

@@ -50,7 +50,7 @@ SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 150000;
 ```
 #### Hasil
 
-![Gambar_BEETWEN](IMG_BEETWEN.jpg)
+![Gambar_BEETWEN](asets/IMG_BEETWEN.jpg)
 
 #### Analisis
 Tujuan dari query `BETWEEN` ini adalah untuk mengambil semua kolom (`*`) dari tabel `mobil`di mana nilai kolom `harga_rental` berada di antara `100000` dan `150000`.
@@ -402,7 +402,7 @@ WHERE peminjam LIKE '_____';
 
 #### Hasil
 
-![total_karakter __](total_karakter__.jpg)
+![total_karakter __](asets/total_karakter__.jpg)
 #### analisis
 
 `Select * from mobil` nama tabel yang digunakan,`WHERE peminjam` nama kolomnya Dengan menggunakan `*` dalam pernyataan `SELECT`, query ini akan mengambil semua kolom yang ada dalam tabel `mobil`.`peminjam LIKE '_____'`  Kondisi WHERE digunakan untuk memfilter baris berdasarkan nilai kolom `peminjam`.kolom `peminjam` harus memenuhi pola
@@ -426,7 +426,7 @@ WHERE peminjam LIKE '____n%';
 
 #### Hasil
 
-![kombinasi](kombinasi_1.jpg)
+![kombinasi](asets/kombinasi_1.jpg)
 #### analisis
 `SELECT * FROM mobil` ini adalah nama tabelnya
 `WHERE peminjam LIKE ____n%`: Ini adalah klausa `WHERE` yang digunakan untuk mencari baris.kita menggunakan operator `LIKE` untuk membandingkan nilai kolom `peminjam` dengan pola tertentu.

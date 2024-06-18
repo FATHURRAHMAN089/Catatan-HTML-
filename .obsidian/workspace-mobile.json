@@ -11,9 +11,11 @@
             "id": "9ee72eb621157ca5",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "PRAKTIKUM 7"
+                "file": "Proyek/README.MD.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,6 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Proyek/README.MD.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -107,6 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Proyek/README.MD.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +121,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Proyek/README.MD.md"
+          }
         }
       }
     ]
@@ -136,10 +142,24 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
-    "Query/Praktikum 6.md",
+    "Basis Data/Select Lanjutan .md",
+    "Basis Data/ALTER.md",
+    "Basis Data/Instalasi & Query awal Database .md",
+    "Basis Data/PENGENALAN Basis Data.md",
+    "Basis Data new/Instalasi & Query awal Database .md",
+    "Catatan_PHP/Aasets/if.png",
+    "Catatan_PHP/PHP Dasar.md",
+    "materi css/Catatan css/Pengenalan CSS .md",
+    "materi css/CSS.md",
     "pesonaindo.html/Pesona indo.md",
-    "Query/Catatan.md",
+    "Basis Data/GROUP BY & HAVING.md",
+    "Basis Data new/asets/step.jpg",
+    "Basis Data new/asets/Screenshot_2024-06-15-13-32-13-71_51606159b24eff83e24a54116878fe3e.jpg",
+    "Basis Data new/asets/show_databases.jpg",
     "PHP Mysql/PHP MYSQL.md",
+    "PHP/PHP Dasar.md",
+    "Query/Praktikum 6.md",
+    "Query/Catatan.md",
     "PHP/PHP MYSQL.md",
     "PHP/aset/user.png",
     "PHP/aset/Upload.png",
@@ -147,19 +167,13 @@
     "PHP/aset/ubah_2.png",
     "PHP/aset/ubah_1.png",
     "PHP/aset/tampilkan_data.png",
-    "PHP/aset/Tambah_3.png",
-    "PHP/aset/Tambah_2.png",
-    "PHP/aset/Tambah_1.png",
-    "PHP/aset/session.png",
     "PHP/aset",
     "PHP Mysql/aset",
     "PHP Mysql",
-    "PHP/PHP Dasar.md",
     "PHP/Aasets",
     "PHP",
     "Basis Data new/Select Lanjutan .md",
     "Basis Data new/PENGENALAN Basis Data.md",
-    "Basis Data new/Instalasi & Query awal Database .md",
     "Basis Data new/GROUP BY & HAVING.md",
     "Basis Data new/Basis Data.md",
     "Basis Data new/asets/Untitled.md",
@@ -168,19 +182,10 @@
     "Basis Data new/ALTER.md",
     "Basis Data new",
     "PHP/PHP .md",
-    "Basis Data/Instalasi & Query awal Database .md",
-    "Basis Data/PENGENALAN Basis Data.md",
-    "Basis Data/ALTER.md",
-    "Basis Data/Select Lanjutan .md",
-    "Basis Data/GROUP BY & HAVING.md",
-    "materi css/CSS.md",
     "materi css/Catatan css/Materi Eksplorasi css.md",
-    "materi css/Catatan css/Pengenalan CSS .md",
     "materi css/Bootstrap/Bootstrap Framework.md",
-    "HTML/(4)Pengenalan HTML.md",
     "pesonaindo.html/aset",
     "pesonaindo.html/index.html",
-    "pesonaindo.html",
-    "IMG_20240219_120854.jpg.md"
+    "pesonaindo.html"
   ]
 }

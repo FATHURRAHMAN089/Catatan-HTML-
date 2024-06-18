@@ -291,7 +291,7 @@ if ($nilai >= 70) {
 
 ### Hasil
 
-![If](aasets/if.png)
+![If](Aasets/if.png)
 ### Analisis
 Variabel `$nilai = 80;` dideklarasikan dan diinisialisasi dengan nilai 80.
  `If`  digunakan untuk mengevaluasi kondisi `$nilai >= 70`. Jika kondisi tersebut bernilai benar ,lebih besar atau sama dengan 70,maka blok kode di dalam if  akan dieksekusi.
