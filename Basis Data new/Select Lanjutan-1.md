@@ -850,7 +850,7 @@ ___
 
 ### Hasil
 
-![Pegawai](asets/pegawai.png)
+![Pegawai](pegawai.png)
 
 
 
@@ -858,10 +858,10 @@ ___
 
 ### Before
 
-![Before](asets/strukturB.png)
+![Before](strukturB.png)
 
 ### After
-![after](asets/strukturA.png)
+![after](strukturA.png)
 
 ## Perubahan Data Tabel Pegawai & Cabang
 
