@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data new/Select Lanjutan-1.md",
+                "file": "HTML/Catatan HTML .md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis Data new/Select Lanjutan-1.md",
+            "file": "HTML/Catatan HTML .md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis Data new/Select Lanjutan-1.md",
+            "file": "HTML/Catatan HTML .md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis Data new/Select Lanjutan-1.md"
+            "file": "HTML/Catatan HTML .md"
           }
         }
       }
@@ -142,6 +142,9 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
+    "Proyek/1.jpeg",
+    "Proyek/README.MD.md",
+    "Basis Data new/Select Lanjutan-1.md",
     "Basis Data new/asets/Kkombinasi.jpg",
     "Basis Data new/asets/Screenshot_2024-06-19-19-01-18-95_51606159b24eff83e24a54116878fe3e.jpg",
     "Basis Data new/asets/total.jpg",
@@ -152,9 +155,7 @@
     "Basis Data new/asets/Screenshot_2024-06-19-18-54-46-62_51606159b24eff83e24a54116878fe3e.jpg",
     "Basis Data new/asets/sebelum.jpg",
     "Basis Data new/asets/Screenshot_2024-06-19-18-53-19-84_51606159b24eff83e24a54116878fe3e.jpg",
-    "Basis Data new/asets/pgwai1.jpg",
     "Basis Data new/GROUP BY & HAVING.md",
-    "Basis Data new/Select Lanjutan-1.md",
     "Basis Data new/Relasi Tabel.md",
     "Basis Data new/Select Lanjutan-1.pdf",
     "Basis Data new/ALTER.md",
@@ -182,7 +183,6 @@
     "HTML/(4)Pengenalan HTML.md",
     "HTML/(3)DESKRIPSI HTML,CSS,JAVA SCRIPT DARI SEBUAH RUMAH.md",
     "HTML/(2)SEJARAH ATAU TERCIPTANYA WEB.md",
-    "Proyek/README.MD.md",
     "Basis Data/Select Lanjutan .md",
     "Basis Data/ALTER.md",
     "Basis Data/Instalasi & Query awal Database .md",
