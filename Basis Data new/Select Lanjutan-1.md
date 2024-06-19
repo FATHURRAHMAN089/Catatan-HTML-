@@ -850,7 +850,7 @@ ___
 
 ### Hasil
 
-![Pegawai](pegawai.png)
+![Pegawai](asets/pgwai1.jpg)
 
 
 
@@ -858,11 +858,12 @@ ___
 
 ### Before
 
-![Before](strukturB.png)
+![Before](asets/sebelum.jpg)
 
 ### After
-![after](strukturA.png)
+![after](asets/sesudah.jpg)
 
+Perubahannya ada pada bagian `nama` yang tadinya `varchar(100)` menjadi `text`
 ## Perubahan Data Tabel Pegawai & Cabang
 
 ### Pegawai
