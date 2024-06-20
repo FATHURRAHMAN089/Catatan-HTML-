@@ -109,7 +109,7 @@ ___
 
 
 
-# variabel,const,
+# variabel,const
 ## Variabel 
 **Variabel** dalam PHP digunakan untuk menyimpan nilai yang dapat berubah selama eksekusi skrip. Variabel dideklarasikan dengan awalan `$` diikuti dengan nama variabelnya. 
 
@@ -406,9 +406,10 @@ if ($nilai >= 70) {
 ### Hasil
 #### Jika kondisinya terpenuhi
 
-![If2](Aasets/if2.png)
+![If2](Aasets/terpenuhi.jpg)
 #### Jika kondisinya tidak terpenuhi
-![Else](Aasets/Else.png)
+
+![Else](Aasets/tidak.jpg)
 
 ### Analisis
 
