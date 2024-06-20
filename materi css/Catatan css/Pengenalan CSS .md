@@ -691,26 +691,89 @@ button {
 - `height: 100px;`: Properti yang digunakan untuk membuat  tinggi (height) tombol menjadi 100 piksel ketika tombol di-hover.
 - `width: 100px;`: Properti yang digunakan untuk membuat lebar (width) tombol menjadi 100 piksel ketika tombol di-hover.
 
-## Kode program 
-```css
+### Kode program 
 
+```css
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hover</title>
+    
+    <style>
+    button {
+  height: 100px;
+  width: 100px;
+}
+
+button:hover {
+  transform: scale(.8);
+  transition: all 1s ease-in;
+  height: 140px;
+  width: 200px;
+  background-color: aqua;
+  font-size: 40px;
+}
+    </style>
+  </head>
+  <body>
+<button>Klik disini</button>
+  </body>
+    </html>
 ```
 
-## Hasil
+### Hasil
+#### Before 
 
+![sebelum](assetss/sebelum.jpg)
+#### After
 
+![sesudah](assetss/sesudah.jpg)
+
+### Kesimpulan 
+
+Button hover di CSS digunakan untuk memberikan interaksi visual saat pengguna mengarahkan kursor ke atas sebuah tombol. Ini dapat dilakukan dengan mengubah properti CSS seperti warna latar belakang, warna teks, atau efek transisi lainnya.
 ## Active
 `button:active`: adalah pseudo-class selector yang menargetkan tombol (`button`) ketika tombol tersebut sedang dalam keadaan "active", atau tombol sedang ditekan. 
 `color: yellow;`: Properti memberikan warna kuning pada teks ketika tombol sedang active atau tombol sedang ditekan. 
+
 ### Kode program
-```css
-button:active{
-  color: yellow ;
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hover</title>
+    <style>
+    button {
+  height: 50px;
+  width: 100px;
+  
 }
+button:active {
+  transform: scale(.5);
+  transition: all 1s ease-in;
+  height: 140px;
+  width: 200px;
+  background-color: aqua;
+  font-size: 20px;
+}
+    </style>
+  </head>
+  <body>
+<button>klikk</button>
+  </body>
+    </html>
 ```
 
-## Hasil
+### Hasil
+![active](assetss/Active.jpg)
 
+### Kesimpulan 
+
+Button active di CSS digunakan untuk menentukan tampilan tombol saat tombol tersebut sedang dalam keadaan aktif, yaitu saat tombol ditekan
+
+## Visited
+### Hasil
+![visited](assetss/visited.jpg)
 # Transition 
 ## Transition-delay
 ### Penjelasan 
