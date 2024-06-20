@@ -109,7 +109,7 @@ ___
 
 
 
-# variabel,const, operator 
+# variabel,const,
 ## Variabel 
 **Variabel** dalam PHP digunakan untuk menyimpan nilai yang dapat berubah selama eksekusi skrip. Variabel dideklarasikan dengan awalan `$` diikuti dengan nama variabelnya. 
 
@@ -121,19 +121,13 @@ $umur = 17;
 
 
 ## const
+
 **Konstanta** dalam PHP adalah nama yang ditetapkan untuk nilai tertentu yang tidak dapat berubah selama eksekusi skrip. Konstanta didefinisikan menggunakan fungsi `define()`
 
 ### Contoh kode 
 ```php
 define("PI", 7.16);
 echo PI; // Output: 7.14
-```
-## operator 
-**OPERATOR** dalam PHP digunakan untuk melakukan operasi pada nilai atau variabel. Ada berbagai jenis operator, seperti operator aritmatika, perbandingan, logika, dan lainnya. 
-
-### contoh kode
-```php
-
 ```
 # Operator
 ## Aritmatika
@@ -197,11 +191,11 @@ echo "Hasil Modulus: " . $hasilModulus . "<br>";
 ### Hasil
 ![aritmatika](Aasets/Aritmatika.png)
 ### Analisis
-- Inisialisasi Variabel: Variabel $a dan $b diinisialisasi dengan nilai 10 dan 5 secara berturut-turut.
+- Inisialisasi Variabel: Variabel `$a` dan `$b` diinisialisasi dengan nilai 10 dan 5 secara berturut-turut.
 
-- Penambahan: $hasilTambah = $a + $b; melakukan penambahan antara nilai $a dan $b, menghasilkan 15.
-- Pengurangan: $hasilKurang = $a - $b; melakukan pengurangan antara nilai $a dan $b, menghasilkan 5.
-- Perkalian: $hasilKali = $a * $b; melakukan perkalian antara nilai $a dan $b, menghasilkan 50.
+- Penambahan: `$hasilTambah` = `$a + $b;` melakukan penambahan antara nilai `$a`, menghasilkan 15.
+- Pengurangan: `$hasilKurang` = `$a - $b`; melakukan pengurangan antara nilai $a dan $b, menghasilkan 5.
+- Perkalian: `$hasilKali` = `$a * $b`; melakukan perkalian antara nilai $a dan $b, menghasilkan 50.
 - Pembagian: $hasilBagi = $a / $b; melakukan pembagian antara nilai $a dan $b, menghasilkan 2.
 - Modulus: $hasilModulus = $a % $b; melakukan operasi modulus, yaitu mengambil sisa pembagian $a dengan $b, yang menghasilkan 0 karena 10 dibagi 5 tidak memiliki sisa.
 - `$hasilKompleks = ($a + $b) * ($a - $b)`; melakukan operasi penjumlahan dan pengurangan terlebih dahulu, kemudian hasilnya dikalikan. Ini menghasilkan (10 + 5) * (10 - 5) = 15 * 5 = 75.
@@ -210,32 +204,112 @@ operator aritmatika dasar untuk melakukan operasi matematika seperti penambahan,
 ## Perbandingan
 ### Penjelasan
 
-
+- perbandingan dalam PHP adalah proses membandingkan dua nilai atau ekspresi untuk menentukan hubungan antara keduanya. Hasil dari perbandingan ini yang bisa jadi true jika perbandingan benar, atau false jika perbandingan salah.
 ### Struktur
 
 ```PHP
+// 1. Deklarasi variabel
 
+$a = 12;
+
+$b = 8;
+// 2. Fungsi untuk membandingkan dua angka
+
+function compare($x, $y) {
+
+// 3. Logika perbandingan
+
+    if ($x > $y) {
+
+        return "$x lebih besar dari $y";
+
+    } elseif ($x < $y) {
+
+        return "$x lebih kecil dari $y";
+
+    } else {
+
+        return "$x sama dengan $y";}
+}
+// 4. Pemanggilan fungsi dan output
+
+echo compare($a, $b);
+
+?>
 ```
 ### Program
 
 ```PHP
+$a = 12;
 
+$b = 8;
+
+function compare($x, $y) {
+
+    if ($x > $y) {
+
+        return "$x lebih besar dari $y";
+
+    } elseif ($x < $y) {
+
+        return "$x lebih kecil dari $y";
+
+    } else {
+
+        return "$x sama dengan $y";
+
+    }
+
+}
+echo compare($a, $b);
+
+?>
 ```
 ### Hasil
-
+![perbandingan](Aasets/Perbandingan.png)
 
 ### Analisis
+- `$a` diinisialisasi dengan nilai 12.
+  `$b` diinisialisasi dengan nilai 8.
 
+- `function compare($x, $y)` Mendefinisikan fungsi bernama compare yang menerima dua parameter: `$x dan $y`.
+
+-  `if ($x > $y)` Mengecek apakah `$x`lebih besar dari `$y`. Jika benar, mengembalikan string `$x` lebih besar dari `$y`.
+
+- `elseif ($x < $y)` Jika kondisi pertama tidak   terpenuhi, mengecek apakah `$x` lebih kecil dari `$y`. Jika benar, mengembalikan string `$x` lebih kecil dari `$y`.
+
+- `else` Jika kedua kondisi sebelumnya tidak terpenuhi artinya `$x` sama dengan `$y`, mengembalikan string `$x` sama dengan `$y`.
 
 ### Kesimpulan Program
 
+Kesimpulannya, untuk membandingkan dua angka, yaitu 12 dan 8, dan kemudian menampilkan hasil perbandingan tersebut dalam bentuk kalimat. Hasil akhirnya adalah "12 lebih besar dari 8"
 
 ## Logika
 ### Penjelasan
 Operator logika adalah simbol atau kata kunci yang digunakan dalam pemrograman untuk melakukan operasi logika seperti AND, OR, dan NOT. Operator ini digunakan untuk menggabungkan kondisi-kondisi logika dalam sebuah pernyataan atau ekspresi, yang kemudian dievaluasi menjadi nilai kebenaran (true atau false).
 
 ### Struktur
+```PHP
+<?php
+// 1. Inisialisasi Variabel
+$umur = 25;
+$status = "mahasiswa";
+
+// 2. Pernyataan Logika dan Pernyataan Pengkondisian
+if ($umur >= 18 && $status == "mahasiswa") {
+    // Blok kode yang akan dieksekusi jika kedua kondisi terpenuhi
+    echo "Anda adalah mahasiswa dewasa.";
+} elseif ($umur < 18 || $status != "mahasiswa") {
+    // Blok kode yang akan dieksekusi jika salah satu dari kondisi tersebut tidak terpenuhi
+    echo "Anda bukan mahasiswa dewasa.";
+}
+
+// 3. Pesan Output (Opsional)
+?>
+```
+
 ### Program
+
 ```PHP
 <?php
 // Deklarasi dan inisialisasi variabel
@@ -253,6 +327,8 @@ echo "Hasil Logika OR (a || b): " . ($hasilOR ? 'true' : 'false') . "<br>";
 echo "Hasil Logika NOT (!a): " . ($hasilNOT ? 'true' : 'false') . "<br>";
 ?>
 ```
+
+
 ### Hasil
 
 ![Operator Logika](Aasets/Logika.png)
@@ -724,6 +800,77 @@ Kesimpulannya `Foreach` akan mencetak kalimat `Saya suka [nilai]` untuk setiap n
 
 # Function
 
+## Penjelasan 
+
+Fungsi dalam PHP adalah blok kode yang dapat dipanggil berulang kali di dalam program untuk melakukan tugas tertentu.
+
+## Struktur 
+
+```PHP
+<?php
+// Fungsi untuk mengecek apakah sebuah bilangan adalah genap
+
+function isEven($number) {
+
+    return $number % 2 == 0;
+}
+// Menggunakan fungsi untuk mengecek beberapa bilangan
+
+$numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+foreach ($numbers as $num) {
+    if (isEven($num)) {
+        echo "$num adalah bilangan genap\n";
+    } else {
+        echo "$num adalah bilangan ganjil\n";
+    }
+}
+?>
+```
+## Program 
+
+```PHP
+<?php
+function isEven($number) {
+    return $number % 2 == 0;
+}
+$numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+foreach ($numbers as $num) {
+    if (isEven($num)) {
+        echo "$num adalah bilangan genap\n";
+    } else {
+        echo "$num adalah bilangan ganjil\n";
+    }
+}
+?>
+```
+
+## Hasil
+
+![Function](Aasets/function.png)
+## Analisis 
+
+- `function isEven($number) { ... }`
+  Mendefinisikan sebuah fungsi bernama isEven yang menerima satu parameter `$number`.
+  
+- `return $number % 2 == 0`;
+  Fungsi ini mengembalikan nilai true jika hasil pembagian `$number` dengan 2 (menggunakan operator modulus %) sama dengan 0. Jika `$number % 2 == 0` bernilai true, maka angka tersebut adalah genap. Jika false, maka angka tersebut ganjil.
+  
+- `$numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`
+  Membuat sebuah array bernama `$numbers` yang berisi daftar angka dari 1 sampai 10.
+  
+- `foreach ($numbers as $num) { ... }`
+  Mengiterasi setiap elemen dalam array `$numbers`. Pada setiap iterasi, elemen saat ini disimpan dalam variabel `$num`.
+
+- `if (isEven($num)) { ... } else { ... }` `if (iseven($num)) { ... }`
+  Memanggil fungsi isEven dengan parameter `$num`.Jika `isEven` `$num` mengembalikan true, maka kode dalam blok if akan dijalankan.
+
+- `echo "$num adalah bilangan genap\n`
+  Jika angka tersebut genap, cetak string `$num adalah bilangan genap\n` ke layar. Misalnya, jika `$num` adalah 2, maka akan mencetak 2 adalah bilangan genap.
+
+- `echo "$num adalah bilangan ganjil\n`
+  Jika angka tersebut ganjil, cetak string `$num adalah bilangan ganjil\n` ke layar. Misalnya, jika `$num` adalah 3, maka akan mencetak 3 adalah bilangan ganjil.
+## Kesimpulan 
+Kesimpulannya, Function digunakan untuk menentukan apakah sebuah angka adalah ganjil,genap atau tidak.
 
 # PHPForm
 ## GET Method
@@ -732,8 +879,37 @@ GET adalah salah satu dari dua metode utama yang digunakan oleh protokol HTTP un
 
 ### Struktur
 
-```
-
+```PHP
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET Method</title>
+</head>
+<body>
+    <h2>GetMethod</h2>
+    <form action="php.php" method="get">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <?php
+    // Mengecek apakah ada data yang dikirim melalui metode GET
+    if (isset($_GET['name']) && isset($_GET['email'])) {
+        $name = $_GET['name'];
+        $email = $_GET['email'];
+        echo "<h2>Proses Data</h2>";
+        echo "Name: $name <br>";
+        echo "Email: $email";
+    } else {
+        echo "<p>Tidak ada data</p>";
+    }
+    ?>
+</body>
+</html>
 ```
 ### Program
 
@@ -851,7 +1027,38 @@ Kesimpulannya,Program ini menunjukkan cara sederhana untuk mengirim data dari fo
 POST method adalah cara yang lebih aman dan cocok untuk mengirim data sensitif atau operasi yang mengubah data di server.
 ### Struktur
 ```PHP
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST Method</title>
+</head>
+<body>
+    <h2>PHP Form POST</h2>
+    <form action="Php.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <?php
+    // Mengecek apakah ada data yang dikirim melalui metode POST
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (!empty($_POST['name']) && !empty($_POST['email'])) {
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+            echo "<h2>Processed Data</h2>";
+            echo "Name: $name <br>";
+            echo "Email: $email";
+        } else {
+            echo "<p>Please fill in all fields</p>";
+        }
+    }
+    ?>
+</body>
+</html>
 ```
 ### Program
 #### Form POST
