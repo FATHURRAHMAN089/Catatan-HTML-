@@ -723,6 +723,8 @@ foreach ($buah as $nama) {
 Kesimpulannya `Foreach` akan mencetak kalimat `Saya suka [nilai]` untuk setiap nilai dalam array `$buah`, menggunakan perulangan `foreach` untuk iterasi melalui seluruh elemen array tanpa perlu memperhatikan indeksnya.
 
 # Function
+
+
 # PHPForm
 ## GET Method
 ### Penjelasan
