@@ -3,6 +3,18 @@
 
 ![anatomi](assetss/anatomi_css.jpg)
 
+## Selector 
+
+
+Selector dalam CSS adalah pola atau kriteria yang digunakan untuk memilih elemen HTML tertentu. Contohnya termasuk selector elemen (misalnya, `p`), selector ID (misalnya, `#header`), dan selector kelas (misalnya, `.menu`). Selector memungkinkan penerapan aturan gaya CSS pada elemen-elemen yang sesuai dengan kriteria yang ditentukan.
+
+## Property 
+
+Property dalam CSS adalah karakteristik atau atribut yang dapat diatur pada elemen HTML untuk mengatur tampilan atau perilakunya. Contohnya termasuk color untuk warna teks, font-size untuk ukuran font, dan margin-top untuk jarak atas.
+
+## Property Value
+
+Dalam CSS, "property value" adalah nilai yang diberikan kepada suatu properti untuk mengatur tampilan atau perilaku elemen HTML. Contohnya termasuk color: blue, font-size: 16px, dan margin-top: 10px, di mana "blue", "16px", dan "10px" adalah nilai properti yang menentukan bagaimana elemen akan ditampilkan atau diatur.
 # Percobaan 1
 ## Kode program
 
@@ -35,10 +47,86 @@ font-size: 100px;
 
 ![p_2](assetss/P_2.jpg)
 
+## Penjelasan
 button { font-size: `100px`; } adalah aturan CSS yang menentukan gaya untuk semua elemen <`button`> dalam dokumen HTML
 **Button**: Ini adalah selector yang menargetkan semua elemen <`button`> dalam dokumen HTML.
 font-size :`100px`; :Ini adalah deklarasi gaya yang terkait dengan selector tersebut. Di sini, kita menetapkan properti font-size dengan nilai `100px`, yang berarti teks di dalam elemen <`button`> akan ditampilkan dengan ukuran font sebesar `100px`.
 
+# Cara pemanggilan CSS
+
+## Secara internal 
+
+### Penjelasan 
+
+Pemanggilan CSS secara internal dalam HTML mengacu pada menempatkan aturan gaya CSS langsung di dalam tag `<style>` di bagian `<head>` dokumen HTML yang sama.
+### Kode
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>tes</title>
+    
+    
+    <style>
+      
+      p{
+        color: aqua;
+      }
+      
+      
+      span{
+        color: yellow;
+      }
+      
+      </style>
+    
+  </head>
+  <body>
+
+<div>
+      Ini dibuat menggunakan div
+    </div>
+    <div>
+      Ini juga menggunakan div
+    </div>
+    
+    
+    
+    <p>
+      ini dibuat menggunakan tag paragraf,
+      <span>
+        dan ada span di dalamnya
+      </span>
+    </p>
+    
+    
+    </body>
+    </html>
+```
+### Hasil
+
+![internal](Assetss/internal.jpg)
+### Kesimpulan 
+
+Kesimpulannya,pemanggilan CSS secara internal dalam HTML melibatkan penempatan aturan gaya CSS di dalam tag `<style>` pada bagian `<head>` halamannya.
+## Secara inline 
+### Penjelasan 
+### Kode
+```HTML
+
+```
+### Hasil
+### Kesimpulan 
+
+## Secara External
+
+### Penjelasan 
+### Kode
+```HTML
+
+```
+### Hasil
+### Kesimpulan 
 # Selector 
 ## Selector ID
 Selector ID: Untuk memilih elemen dengan ID tertentu, gunakan tanda pagar (#) diikuti dengan nama ID sebagai selector.
@@ -353,6 +441,7 @@ Kesimpulannya, background-attachment adalah properti CSS yang mengontrol perilak
 ![background_posisition](assetss/position.jpg)
 ### Kesimpulan 
 Jadi, `background-position` yang menentukan posisi awal dari gambar latar belakang.ini digunakan  untuk mengatur posisi gambar latar belakang secara relatif dengan menggunakan nilai persentase atau piksel, atau menggunakan seperti `center`atau `bottom right` untuk menentukan posisi relatif terhadap elemen.
+
 
 # Font
 ## Font-size
@@ -772,8 +861,16 @@ button:active {
 Button active di CSS digunakan untuk menentukan tampilan tombol saat tombol tersebut sedang dalam keadaan aktif, yaitu saat tombol ditekan
 
 ## Visited
+### Penjelasan 
+
+Digunakan untuk memberikan gaya/efek pada tautan yang sudah pernah dikunjungi oleh pengguna.
 ### Hasil
 ![visited](assetss/visited.jpg)
+
+### kesimpulan 
+
+Kesimpulannya,Pseudo-class :`visited` digunakan untuk menyeleksi elemen hyperlink (`<a>`) yang sudah pernah dikunjungi oleh pengguna.
+
 # Transition 
 ## Transition-delay
 ### Penjelasan 

@@ -1,28 +1,51 @@
 
 # Langkah-langkah Penggunaan APACHE (Web Server)
+
 1. *Instalasi Apache*:
     - Unduh paket instalasi Apache dari situs web resminya atau gunakan package manager jika Anda menggunakan sistem operasi Linux. Untuk Windows, Anda dapat menggunakan installer yang disediakan.
+    
+     ![instal](Aasets/download.png)
+     
 2. *Konfigurasi Apache*:
     
     - Setelah instalasi selesai, Anda perlu melakukan beberapa konfigurasi dasar, seperti menentukan direktori root web, mengatur virtual host jika Anda memiliki beberapa situs, dan mengonfigurasi modul Apache sesuai kebutuhan.
+
+     ![xampp](Aasets/xampp.png)
+
+
+
 3. *Memulai Server*:
     
     - Setelah konfigurasi selesai, Anda bisa memulai Apache. Di Linux, Anda bisa menggunakan perintah seperti sudo systemctl start apache2 untuk Debian/Ubuntu, atau sudo systemctl start httpd untuk CentOS/RHEL. Di Windows, Anda bisa memulai Apache melalui layanan "Services" atau dengan menjalankan perintah httpd -k start dari command prompt.
+
+     ![service](Aasets/services.png)
+
+
 4. *Tes Koneksi*:
     
-    - Buka browser web dan akses http://localhost atau http://127.0.0.1. Jika instalasi berhasil, Anda akan melihat halaman selamat datang dari Apache.
+    - Buka browser web dan akses `http://localhost` atau `http://127.0.0.1`. Jika instalasi berhasil, Anda akan melihat halaman selamat datang dari Apache.
+
+     ![tes](Aasets/welcome.png)
+
+
 5. *Menyimpan File Situs Web*:
     
-    - Letakkan file-file situs web Anda di direktori root web yang telah Anda konfigurasi sebelumnya. Secara default, di banyak instalasi Apache, direktori root web terletak di /var/www/html untuk Linux atau C:\xampp\htdocs untuk Windows.
-6. *Mengonfigurasi Situs (Opsional)*:
-    
-    - Jika Anda memiliki beberapa situs web, Anda dapat menggunakan konfigurasi virtual host untuk mengonfigurasi setiap situs secara terpisah.
-7. *Uji Situs Web*:
+    - Letakkan file-file situs web Anda di direktori root web yang telah Anda konfigurasi sebelumnya. Secara default, di banyak instalasi Apache, direktori root web terletak di `/var/www/html` untuk Linux atau `C:\xampp\htdocs` untuk Windows.
+
+     ![simpan](Aasets/htdocs.png)
+    - Ini adalah file htdocs yang digunakan untuk menyimpan file/web kita.
+
+6. *Uji Situs Web*:
     
     - Setelah menyimpan file-file situs web Anda, coba akses situs web Anda melalui browser untuk memastikan semuanya berfungsi dengan baik.
-8. *Pemantauan dan Pemeliharaan*:
+
+     ![uji](Aasets/uji.png)
+
+7. *Pemantauan dan Pemeliharaan*:
     
     - Secara teratur periksa log aktivitas Apache untuk mengetahui masalah atau serangan keamanan. Pastikan untuk melakukan pemeliharaan rutin, seperti memperbarui software dan mengoptimalkan konfigurasi server.
+
+
 # Apa itu web dinamis dan PHP?
 ## Web Dinamis 
 **Web Dinamis** adalah situs yang mampu berubah dan menyesuaikan konten atau tampilannya berdasarkan interaksi pengguna atau data yang diterima. 
@@ -91,6 +114,9 @@ echo 'Kelasnya ' . $tk_kelas . ' '. Kelas;
 ?>
 ```
 
+### Hasil
+
+![echo](Aasets/echo.png)
 ## Commentar 
 **Commentar** adalah bagian dari kode yang tidak dieksekusi oleh interpreter PHP, dan digunakan untuk memberikan penjelasan atau dokumentasi tentang kode tersebut. Komentar tidak akan ditampilkan pada halaman web. Ada dua jenis komentar dalam PHP
 
@@ -111,15 +137,19 @@ ___
 
 # variabel,const
 ## Variabel 
+
 **Variabel** dalam PHP digunakan untuk menyimpan nilai yang dapat berubah selama eksekusi skrip. Variabel dideklarasikan dengan awalan `$` diikuti dengan nama variabelnya. 
 
 ### Contoh kode 
 ```php
 $nama = "Fathur";
 $umur = 17;
+
+echo 'Halo, ' .$nama . ' umurmu ' .$umur . ' tahun';
 ```
 
-
+### Hasil
+![Variabel](Aasets/Variabel.png)
 ## const
 
 **Konstanta** dalam PHP adalah nama yang ditetapkan untuk nilai tertentu yang tidak dapat berubah selama eksekusi skrip. Konstanta didefinisikan menggunakan fungsi `define()`
@@ -129,6 +159,9 @@ $umur = 17;
 define("PI", 7.16);
 echo PI; // Output: 7.14
 ```
+
+### Hasil
+![Const](Aasets/Const.png)
 # Operator
 ## Aritmatika
 ### Penjelasan
@@ -882,33 +915,21 @@ GET adalah salah satu dari dua metode utama yang digunakan oleh protokol HTTP un
 
 ```PHP
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GET Method</title>
+    <title>Form dengan Metode POST</title>
 </head>
 <body>
-    <h2>GetMethod</h2>
-    <form action="php.php" method="get">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br><br>
-        <input type="submit" value="Submit">
-    </form>
-    <?php
-    // Mengecek apakah ada data yang dikirim melalui metode GET
-    if (isset($_GET['name']) && isset($_GET['email'])) {
-        $name = $_GET['name'];
-        $email = $_GET['email'];
-        echo "<h2>Proses Data</h2>";
-        echo "Name: $name <br>";
-        echo "Email: $email";
-    } else {
-        echo "<p>Tidak ada data</p>";
-    }
-    ?>
+
+<!-- Form dengan metode POST -->
+<form action="proses.php" method="POST">
+    <label for="nama">Nama:</label><br>
+    <input type="text" id="nama" name="nama"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
 </body>
 </html>
 ```
@@ -1029,35 +1050,21 @@ POST method adalah cara yang lebih aman dan cocok untuk mengirim data sensitif a
 ### Struktur
 ```PHP
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POST Method</title>
+    <title>Form dengan Metode POST</title>
 </head>
 <body>
-    <h2>PHP Form POST</h2>
-    <form action="Php.php" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br><br>
-        <input type="submit" value="Submit">
-    </form>
-    <?php
-    // Mengecek apakah ada data yang dikirim melalui metode POST
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        if (!empty($_POST['name']) && !empty($_POST['email'])) {
-            $name = $_POST['name'];
-            $email = $_POST['email'];
-            echo "<h2>Processed Data</h2>";
-            echo "Name: $name <br>";
-            echo "Email: $email";
-        } else {
-            echo "<p>Please fill in all fields</p>";
-        }
-    }
-    ?>
+
+<!-- Form dengan metode POST -->
+<form action="proses.php" method="POST">
+    <label for="nama">Nama:</label><br>
+    <input type="text" id="nama" name="nama"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
 </body>
 </html>
 ```

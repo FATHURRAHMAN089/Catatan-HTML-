@@ -11,11 +11,9 @@
             "id": "9ee72eb621157ca5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "materi css/Catatan css/Pengenalan CSS .md",
-                "mode": "source",
-                "source": false
+                "path": "Web HTML"
               }
             }
           }
@@ -44,7 +42,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#Tag",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -93,7 +91,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +107,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -121,9 +117,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md"
-          }
+          "state": {}
         }
       }
     ]
@@ -142,51 +136,50 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
-    "materi css/Catatan css/assetss/visited.jpg",
-    "materi css/Catatan css/assetss/Active.jpg",
-    "materi css/Catatan css/assetss/Screenshot_2024-06-20-21-56-05-92_99c04817c0de5652397fc8b56c3b3817.jpg",
-    "materi css/Catatan css/assetss/IMG_20240620_214805.jpg",
-    "materi css/Catatan css/assetss/IMG_20240620_214758.jpg",
-    "materi css/Catatan css/assetss/sebelum.jpg",
-    "materi css/Catatan css/assetss/sesudah.jpg",
-    "materi css/Catatan css/assetss/Screenshot_2024-06-20-21-45-16-15_e3c1f266f17b29c7b40472751f031275.jpg",
-    "materi css/Catatan css/assetss/Screenshot_2024-06-20-21-45-13-37_e3c1f266f17b29c7b40472751f031275.jpg",
-    "Catatan_PHP/Aasets/Screenshot_2024-06-20-21-45-16-15_e3c1f266f17b29c7b40472751f031275.jpg",
-    "Catatan_PHP/Aasets/Screenshot_2024-06-20-21-45-13-37_e3c1f266f17b29c7b40472751f031275.jpg",
-    "Basis Data new/Select Lanjutan-1.md",
-    "Catatan_PHP/PHP Dasar.md",
-    "PHP/PHP Dasar.md",
     "materi css/Catatan css/Pengenalan CSS .md",
-    "Query/Praktikum 6.pdf",
+    "materi css/Catatan css/assetss/internal.jpg",
+    "materi css/Catatan css/assetss/Screenshot_2024-06-24-19-26-09-88_e3c1f266f17b29c7b40472751f031275.jpg",
+    "Untitled.md",
+    "Catatan_PHP/PHP Dasar.md",
+    "Basis Data new/Select Lanjutan-1,relasi tabel,group by & having.pdf",
+    "Basis Data new/Select Lanjutan-1.md",
+    "Basis Data new/Select Lanjutan-1,relasi tabel,group by & having.md",
+    "Catatan_PHP/Aasets/const.png",
+    "Catatan_PHP/Aasets/Screenshot 2024-06-24 175421.png",
+    "Catatan_PHP/Aasets/Variabel.png",
+    "Catatan_PHP/Aasets/Screenshot 2024-06-24 175159.png",
+    "Catatan_PHP/Aasets/echo.png",
+    "Catatan_PHP/Aasets/Screenshot 2024-06-24 174844.png",
+    "Catatan_PHP/Aasets/services.png",
+    "Catatan_PHP/Aasets/htdocs.png",
+    "Web HTML/tantanganposition.html",
+    "Web HTML/order_bunga.html",
+    "Web HTML/list_bunga.html",
+    "Web HTML/index.html",
+    "Web HTML/Hasil.md",
+    "Web HTML/eksplorasi.html",
+    "Web HTML/css responsif.html",
+    "Web HTML/css responsif.css",
+    "Web HTML/asett",
+    "Web HTML",
+    "PHP/PHP Dasar.md",
     "HTML/Catatan HTML .md",
     "Proyek/README.MD.md",
     "Basis Data new/GROUP BY & HAVING.md",
     "Basis Data new/Relasi Tabel.md",
-    "Basis Data new/Select Lanjutan-1.pdf",
     "Basis Data new/ALTER.md",
     "Basis Data new/Materi dasar Basis data.md",
     "Proyek(Copy)/README.MD.md",
-    "Basis Data new/Materi dasar Basis data.pdf",
     "Query/Praktikum 6.md",
-    "Query/PRAKTIKUM 7.pdf",
     "Basis Data new/Select Lanjutan .md",
-    "Basis Data new/Select Lanjutan.pdf",
     "Basis Data new/Select Lanjutan.md",
     "Basis Data new/Relasi Tabel,Group BY dan Having/GROUP BY & HAVING.md",
-    "Basis Data new/Relasi Tabel,Group BY dan Having/GROUP BY & HAVING.pdf",
-    "Basis Data new/Relasi Tabel,Group BY dan Having/Relasi Tabel.pdf",
     "Basis Data new/Relasi Tabel,Group BY dan Having/Relasi Tabel.md",
-    "Basis Data new/Relasi Tabel,Group BY dan Having/Asets",
-    "Basis Data new/Relasi Tabel,Group BY dan Having",
     "Basis Data/Relasi Tabel,Group BY dan Having/GROUP BY & HAVING.md",
-    "Basis Data/Relasi Tabel,Group BY dan Having/Relasi Tabel.pdf",
     "Basis Data/Relasi Tabel,Group BY dan Having/Relasi Tabel.md",
     "HTML/Assets/Catatan HTML .md",
     "HTML/(4)Pengenalan HTML.md",
     "HTML/(3)DESKRIPSI HTML,CSS,JAVA SCRIPT DARI SEBUAH RUMAH.md",
-    "HTML/(2)SEJARAH ATAU TERCIPTANYA WEB.md",
-    "Basis Data/Select Lanjutan .md",
-    "Basis Data/ALTER.md",
-    "Basis Data/Instalasi & Query awal Database .md"
+    "HTML/(2)SEJARAH ATAU TERCIPTANYA WEB.md"
   ]
 }
