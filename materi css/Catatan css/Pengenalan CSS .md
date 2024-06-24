@@ -103,9 +103,9 @@ Pemanggilan CSS secara internal dalam HTML mengacu pada menempatkan aturan gaya 
     </body>
     </html>
 ```
-### Hasil
+### Hasil 
 
-![internal](Assetss/internal.jpg)
+![internal](assetss/internal.jpg)
 ### Kesimpulan 
 
 Kesimpulannya,pemanggilan CSS secara internal dalam HTML melibatkan penempatan aturan gaya CSS di dalam tag `<style>` pada bagian `<head>` halamannya.
