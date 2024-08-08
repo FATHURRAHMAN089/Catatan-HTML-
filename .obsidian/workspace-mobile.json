@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "materi css/Catatan css/Pengenalan CSS .md",
+                "file": "PROJEK DART.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md",
+            "file": "PROJEK DART.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md",
+            "file": "PROJEK DART.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "materi css/Catatan css/Pengenalan CSS .md"
+            "file": "PROJEK DART.md"
           }
         }
       }
@@ -142,6 +142,11 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
+    "pbo/project.md",
+    "Basis Data new/Materi dasar Basis data.md",
+    "Basis Data new/Select Lanjutan .md",
+    "Basis Data new/Select Lanjutan-1,relasi tabel,group by & having.md",
+    "Proyek/README.md",
     "materi css/Catatan css/Pengenalan CSS .md",
     "materi css/Catatan css/assetss/internal.jpg",
     "materi css/Catatan css/assetss/Screenshot_2024-06-24-19-26-09-88_e3c1f266f17b29c7b40472751f031275.jpg",
@@ -149,7 +154,6 @@
     "Catatan_PHP/PHP Dasar.md",
     "Basis Data new/Select Lanjutan-1,relasi tabel,group by & having.pdf",
     "Basis Data new/Select Lanjutan-1.md",
-    "Basis Data new/Select Lanjutan-1,relasi tabel,group by & having.md",
     "Catatan_PHP/Aasets/const.png",
     "Catatan_PHP/Aasets/Screenshot 2024-06-24 175421.png",
     "Catatan_PHP/Aasets/Variabel.png",
@@ -170,14 +174,11 @@
     "Web HTML",
     "PHP/PHP Dasar.md",
     "HTML/Catatan HTML .md",
-    "Proyek/README.MD.md",
     "Basis Data new/GROUP BY & HAVING.md",
     "Basis Data new/Relasi Tabel.md",
     "Basis Data new/ALTER.md",
-    "Basis Data new/Materi dasar Basis data.md",
     "Proyek(Copy)/README.MD.md",
     "Query/Praktikum 6.md",
-    "Basis Data new/Select Lanjutan .md",
     "Basis Data new/Select Lanjutan.md",
     "Basis Data new/Relasi Tabel,Group BY dan Having/GROUP BY & HAVING.md",
     "Basis Data new/Relasi Tabel,Group BY dan Having/Relasi Tabel.md",
