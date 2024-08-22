@@ -68,7 +68,7 @@ c.CustomerID AND c.City="London";
 ## query
 ```sql
 SELECT o.OrderID,o.OrderDate,CompanyName,c.ContactName,c.Phone,e.LastName,e.Title FROM orders o,customers c,employees e WHERE o.CustID
-= c.CustomerID AND o.EmpID = e.Empld;
+= c.CustomerID AND o.EmpID = e.EmpId;
 ```
 ## hasil
 ![](aseets/3P.png)
