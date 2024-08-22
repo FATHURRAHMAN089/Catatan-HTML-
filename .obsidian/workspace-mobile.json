@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KELOMPOK 3/GROUP BY & HAVING.md",
+                "file": "KELOMPOK 3/PRAKTIKUM 5.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "KELOMPOK 3/GROUP BY & HAVING.md",
+            "file": "KELOMPOK 3/PRAKTIKUM 5.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "KELOMPOK 3/GROUP BY & HAVING.md",
+            "file": "KELOMPOK 3/PRAKTIKUM 5.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "KELOMPOK 3/GROUP BY & HAVING.md"
+            "file": "KELOMPOK 3/PRAKTIKUM 5.md"
           }
         }
       }
@@ -142,6 +142,7 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
+    "KELOMPOK 3/GROUP BY & HAVING.md",
     "KELOMPOK 3/PRAKTIKUM 5.md",
     "PRAKTIKUM 7/Asett/f.jpeg",
     "PROJEK DART.md",
@@ -186,7 +187,6 @@
     "Basis Data new/Relasi Tabel,Group BY dan Having/Relasi Tabel.md",
     "Basis Data/Relasi Tabel,Group BY dan Having/GROUP BY & HAVING.md",
     "Basis Data/Relasi Tabel,Group BY dan Having/Relasi Tabel.md",
-    "HTML/Assets/Catatan HTML .md",
-    "HTML/(4)Pengenalan HTML.md"
+    "HTML/Assets/Catatan HTML .md"
   ]
 }
