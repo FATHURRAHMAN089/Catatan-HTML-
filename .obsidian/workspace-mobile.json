@@ -11,11 +11,9 @@
             "id": "9ee72eb621157ca5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "KELOMPOK 3/PRAKTIKUM 5.md",
-                "mode": "source",
-                "source": false
+                "file": "KELOMPOK 3/POINT_KEAKTIFAN_klp3.pdf"
               }
             }
           }
@@ -93,7 +91,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "KELOMPOK 3/PRAKTIKUM 5.md",
+            "file": "KELOMPOK 3/POINT_KEAKTIFAN_klp3.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "KELOMPOK 3/PRAKTIKUM 5.md",
+            "file": "KELOMPOK 3/POINT_KEAKTIFAN_klp3.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +120,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "KELOMPOK 3/PRAKTIKUM 5.md"
+            "file": "KELOMPOK 3/POINT_KEAKTIFAN_klp3.pdf"
           }
         }
       }
