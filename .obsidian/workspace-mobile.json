@@ -11,10 +11,14 @@
             "id": "9ee72eb621157ca5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "KELOMPOK 3/POINT_KEAKTIFAN_klp3.pdf"
-              }
+                "file": "KELOMPOK 3/Rangkuman ERD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rangkuman ERD"
             }
           }
         ]
@@ -33,7 +37,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
         }
       },
       {
@@ -48,7 +54,9 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-search",
+          "title": "Search"
         }
       },
       {
@@ -59,7 +67,9 @@
           "state": {
             "sortOrder": "frequency",
             "useHierarchy": true
-          }
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
         }
       },
       {
@@ -67,15 +77,31 @@
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {}
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
         }
       },
       {
         "id": "101dc0828dd5b283",
         "type": "leaf",
         "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "1e17aa4fb2a4ef4e",
+        "type": "leaf",
+        "state": {
           "type": "mk-path-view",
-          "state": {}
+          "state": {},
+          "icon": "layout-grid",
+          "title": "Spaces"
         }
       }
     ],
@@ -91,7 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "KELOMPOK 3/POINT_KEAKTIFAN_klp3.pdf",
+            "file": "KELOMPOK 3/Rangkuman ERD.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -99,7 +125,9 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
         }
       },
       {
@@ -108,10 +136,12 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "KELOMPOK 3/POINT_KEAKTIFAN_klp3.pdf",
+            "file": "KELOMPOK 3/Rangkuman ERD.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
-          }
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
         }
       },
       {
@@ -120,8 +150,10 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "KELOMPOK 3/POINT_KEAKTIFAN_klp3.pdf"
-          }
+            "file": "KELOMPOK 3/Rangkuman ERD.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
         }
       }
     ]
@@ -140,7 +172,10 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
+    "Untitled.md",
     "KELOMPOK 3/GROUP BY & HAVING.md",
+    "Untitled 1.md",
+    "KELOMPOK 3/POINT_KEAKTIFAN_klp3.pdf",
     "KELOMPOK 3/PRAKTIKUM 5.md",
     "PRAKTIKUM 7/Asett/f.jpeg",
     "PROJEK DART.md",
@@ -152,7 +187,6 @@
     "materi css/Catatan css/Pengenalan CSS .md",
     "materi css/Catatan css/assetss/internal.jpg",
     "materi css/Catatan css/assetss/Screenshot_2024-06-24-19-26-09-88_e3c1f266f17b29c7b40472751f031275.jpg",
-    "Untitled.md",
     "Catatan_PHP/PHP Dasar.md",
     "Basis Data new/Select Lanjutan-1,relasi tabel,group by & having.pdf",
     "Basis Data new/Select Lanjutan-1.md",
@@ -172,7 +206,6 @@
     "Web HTML/css responsif.html",
     "Web HTML/css responsif.css",
     "Web HTML/asett",
-    "Web HTML",
     "PHP/PHP Dasar.md",
     "HTML/Catatan HTML .md",
     "Basis Data new/GROUP BY & HAVING.md",
@@ -184,7 +217,6 @@
     "Basis Data new/Relasi Tabel,Group BY dan Having/GROUP BY & HAVING.md",
     "Basis Data new/Relasi Tabel,Group BY dan Having/Relasi Tabel.md",
     "Basis Data/Relasi Tabel,Group BY dan Having/GROUP BY & HAVING.md",
-    "Basis Data/Relasi Tabel,Group BY dan Having/Relasi Tabel.md",
-    "HTML/Assets/Catatan HTML .md"
+    "Basis Data/Relasi Tabel,Group BY dan Having/Relasi Tabel.md"
   ]
 }

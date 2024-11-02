@@ -1,0 +1,277 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "ef4a2c29-921a-45ab-b7df-99d81ecc4234",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "No",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "9e18b1a5-ac5e-400d-ba1f-222277e32389",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Skor keaktifan",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "3fcbb9fb-9bec-42e7-b3b1-62620b986455",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Nama",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "9fd6bb9e-5220-469f-80db-5d1787ead3ef",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Peran",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "68dab9e5-7397-4550-8d1b-1feb40a75479",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-08-28T13:02:34.728Z",
+        "lastEditedDateTime": "2024-09-19T01:36:48.544Z",
+        "cells": [
+          {
+            "id": "1f284511-2927-44d4-b192-0662e6cfed7f",
+            "columnId": "ef4a2c29-921a-45ab-b7df-99d81ecc4234",
+            "content": "1",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "18da284d-437b-4973-9265-2192f4ad7b18",
+            "columnId": "9e18b1a5-ac5e-400d-ba1f-222277e32389",
+            "content": "3",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "7da9bc79-939a-4323-8175-71a7e14605f7",
+            "columnId": "3fcbb9fb-9bec-42e7-b3b1-62620b986455",
+            "content": "Ahsan",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "9714eff1-1462-4e4c-bfc5-447c9b2847bf",
+            "columnId": "9fd6bb9e-5220-469f-80db-5d1787ead3ef",
+            "content": "Mencari materi 1(A,B)dan memasukan di ppt",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "107fc77b-a993-4b54-ab97-b86d3d41df1c",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-08-28T13:02:52.655Z",
+        "lastEditedDateTime": "2024-09-19T01:36:52.406Z",
+        "cells": [
+          {
+            "id": "7c2ea8f1-0202-44a0-a8dd-e4ca21aaa3c8",
+            "columnId": "ef4a2c29-921a-45ab-b7df-99d81ecc4234",
+            "content": "2",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "37a70ba5-20c9-4711-b703-72b634a6f251",
+            "columnId": "9e18b1a5-ac5e-400d-ba1f-222277e32389",
+            "content": "3",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "039df893-a450-462f-ad5f-b6df8abd5376",
+            "columnId": "3fcbb9fb-9bec-42e7-b3b1-62620b986455",
+            "content": "Fatur",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "a53f58ba-e9b3-48d7-91cc-d2c9d8e93ebf",
+            "columnId": "9fd6bb9e-5220-469f-80db-5d1787ead3ef",
+            "content": "Mengerjakan materi ke 3",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "fadc288c-533b-4018-b479-b961ce7f2042",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-08-28T13:03:08.099Z",
+        "lastEditedDateTime": "2024-09-19T01:36:57.367Z",
+        "cells": [
+          {
+            "id": "25ebd6e3-2204-4e9a-97b4-311668b3f4c0",
+            "columnId": "ef4a2c29-921a-45ab-b7df-99d81ecc4234",
+            "content": "3",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "20eeee9a-b457-4115-a691-e579b0f54078",
+            "columnId": "9e18b1a5-ac5e-400d-ba1f-222277e32389",
+            "content": "3",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ed9a6b6b-f1f3-4df6-ab57-2bc15ebab2e8",
+            "columnId": "3fcbb9fb-9bec-42e7-b3b1-62620b986455",
+            "content": "Zhafran ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "4ba7f1cd-4f25-478b-babf-c6e350782d33",
+            "columnId": "9fd6bb9e-5220-469f-80db-5d1787ead3ef",
+            "content": "Mengerjakan materi ke 2",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "870c3f94-6f02-40de-91df-6b584e447e02",
+        "index": 3,
+        "sourceId": null,
+        "creationDateTime": "2024-08-28T13:03:10.598Z",
+        "lastEditedDateTime": "2024-09-19T01:37:27.393Z",
+        "cells": [
+          {
+            "id": "4cc5c207-be13-44eb-9a95-c80ea1db7e09",
+            "columnId": "ef4a2c29-921a-45ab-b7df-99d81ecc4234",
+            "content": "4",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "1f6968f0-3826-4d61-8fca-de0f8447e683",
+            "columnId": "9e18b1a5-ac5e-400d-ba1f-222277e32389",
+            "content": "3",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "61f4b18c-c0cc-44ab-85b9-1a0bbc9c4ebb",
+            "columnId": "3fcbb9fb-9bec-42e7-b3b1-62620b986455",
+            "content": "Agis ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d0ab1b36-606e-48c3-827c-a8c34d8060ef",
+            "columnId": "9fd6bb9e-5220-469f-80db-5d1787ead3ef",
+            "content": "Mengerjakan materi 1(C,D)",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "ebf0afd0-f9a7-48af-b8e2-d9fc85df5f00",
+        "index": 4,
+        "sourceId": null,
+        "creationDateTime": "2024-08-28T13:03:12.775Z",
+        "lastEditedDateTime": "2024-09-19T01:38:00.974Z",
+        "cells": [
+          {
+            "id": "fae8f387-3950-4ec4-b3d5-c5c9754ae7e6",
+            "columnId": "ef4a2c29-921a-45ab-b7df-99d81ecc4234",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "79cd6b97-8526-4aea-8923-626309f235d2",
+            "columnId": "9e18b1a5-ac5e-400d-ba1f-222277e32389",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "5ceeb092-d97e-4af1-9bf2-0fa6bd6eae43",
+            "columnId": "3fcbb9fb-9bec-42e7-b3b1-62620b986455",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "428ba473-ed25-423d-9a8a-aad2a95f9763",
+            "columnId": "9fd6bb9e-5220-469f-80db-5d1787ead3ef",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.15.11"
+}
