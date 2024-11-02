@@ -98,6 +98,18 @@
         "id": "1e17aa4fb2a4ef4e",
         "type": "leaf",
         "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "8fa438cee8da01bc",
+        "type": "leaf",
+        "state": {
           "type": "mk-path-view",
           "state": {},
           "icon": "layout-grid",
