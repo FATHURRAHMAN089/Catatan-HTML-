@@ -14,7 +14,7 @@ Entitas adalah objek atau konsep yang memiliki informasi untuk disimpan.
 Relasi menggambarkan hubungan antara dua atau lebih entitas.
 ## Garis
 
-![Entitas](garis.png)
+![Garis](asets/garis.png)
 ### Deskripsi
 Garis penghubung menghubungkan entitas dengan atribut atau entitas dengan relasi. Garis ini bisa diberi label untuk memperjelas hubungan antara elemen-elemen di dalam ERD.
 ## Atribut
