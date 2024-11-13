@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KELOMPOK 3/Rangkuman ERD.md",
+                "file": "KELOMPOK 3/2.Relasi Tabel XII.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rangkuman ERD"
+              "title": "2.Relasi Tabel XII"
             }
           }
         ]
@@ -110,6 +110,18 @@
         "id": "8fa438cee8da01bc",
         "type": "leaf",
         "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "2887dc46ed9be86a",
+        "type": "leaf",
+        "state": {
           "type": "mk-path-view",
           "state": {},
           "icon": "layout-grid",
@@ -184,6 +196,7 @@
   },
   "active": "9ee72eb621157ca5",
   "lastOpenFiles": [
+    "KELOMPOK 3/1.Laporan GROUP BY & HAVING.md",
     "Untitled.md",
     "KELOMPOK 3/GROUP BY & HAVING.md",
     "Untitled 1.md",
@@ -228,7 +241,6 @@
     "Basis Data new/Select Lanjutan.md",
     "Basis Data new/Relasi Tabel,Group BY dan Having/GROUP BY & HAVING.md",
     "Basis Data new/Relasi Tabel,Group BY dan Having/Relasi Tabel.md",
-    "Basis Data/Relasi Tabel,Group BY dan Having/GROUP BY & HAVING.md",
-    "Basis Data/Relasi Tabel,Group BY dan Having/Relasi Tabel.md"
+    "Basis Data/Relasi Tabel,Group BY dan Having/GROUP BY & HAVING.md"
   ]
 }
