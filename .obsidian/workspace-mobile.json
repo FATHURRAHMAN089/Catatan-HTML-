@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KELOMPOK 3/2.Relasi Tabel XII.md",
+                "file": "KELOMPOK 3/7.Rangkuman ERD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.Relasi Tabel XII"
+              "title": "7.Rangkuman ERD"
             }
           }
         ]
@@ -120,6 +120,18 @@
       },
       {
         "id": "2887dc46ed9be86a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "e6324aff151ada59",
         "type": "leaf",
         "state": {
           "type": "mk-path-view",
