@@ -1,0 +1,244 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "83c6d1a2-c2c7-400a-bb48-b6c43a536483",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "No",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "531dcef2-5f65-4934-a038-df2ef890953e",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Nama",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "88fba912-6bac-490a-99a9-8db4986381bb",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Poin keaktifan",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "b33bc11f-2004-49ee-a34f-717cc6917cf5",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Keterangan",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "7cee4d00-73bd-46ec-afd8-ef4356cc75ce",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-11-14T05:56:22.547Z",
+        "lastEditedDateTime": "2024-11-14T05:59:17.941Z",
+        "cells": [
+          {
+            "id": "a58af5ed-ea02-4f8d-adf3-e7c642bce405",
+            "columnId": "83c6d1a2-c2c7-400a-bb48-b6c43a536483",
+            "content": "1",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ac411515-c35a-4615-badf-e77ff012af33",
+            "columnId": "531dcef2-5f65-4934-a038-df2ef890953e",
+            "content": "Ahsan",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "2365a487-c40a-4d2f-996d-7475eb2e5bb6",
+            "columnId": "88fba912-6bac-490a-99a9-8db4986381bb",
+            "content": "3",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "f4f46add-c96e-43ef-b912-d49431a0dd4b",
+            "columnId": "b33bc11f-2004-49ee-a34f-717cc6917cf5",
+            "content": "Mencatat Materi",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "9ec08698-66b8-4bc9-af32-f292d7d1a6ae",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-11-14T05:57:30.075Z",
+        "lastEditedDateTime": "2024-11-14T05:59:19.874Z",
+        "cells": [
+          {
+            "id": "9588c7cc-8cf2-47e2-8a33-d50d073e0a28",
+            "columnId": "83c6d1a2-c2c7-400a-bb48-b6c43a536483",
+            "content": "2",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "2eb921bf-c5e0-4f2a-ac0c-7f9f70642803",
+            "columnId": "531dcef2-5f65-4934-a038-df2ef890953e",
+            "content": "Agis",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "96780f34-acb2-411d-a4f6-b3ee0fd34aab",
+            "columnId": "88fba912-6bac-490a-99a9-8db4986381bb",
+            "content": "3",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "9d4aaf28-5519-453e-9ba7-d0119bee7ae1",
+            "columnId": "b33bc11f-2004-49ee-a34f-717cc6917cf5",
+            "content": "Mencatat Materi",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "34b169c9-e778-41f4-b1a5-8f88d6753dff",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-11-14T05:57:31.138Z",
+        "lastEditedDateTime": "2024-11-14T05:59:24.236Z",
+        "cells": [
+          {
+            "id": "bdcbc7ac-2b68-4731-8e98-edaa98081ec4",
+            "columnId": "83c6d1a2-c2c7-400a-bb48-b6c43a536483",
+            "content": "3",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "eecff4d9-d67d-4fe1-8ed9-fe3d41d8c29b",
+            "columnId": "531dcef2-5f65-4934-a038-df2ef890953e",
+            "content": "Fatur",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "50bb48f5-4967-4592-b0f5-0ceb121dc345",
+            "columnId": "88fba912-6bac-490a-99a9-8db4986381bb",
+            "content": "3",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "63163e89-7638-42d6-b2dc-23211e2e95ee",
+            "columnId": "b33bc11f-2004-49ee-a34f-717cc6917cf5",
+            "content": "Mencatat Materi",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "6b27fb20-4363-442c-8c96-2c18a15c4b41",
+        "index": 3,
+        "sourceId": null,
+        "creationDateTime": "2024-11-14T05:57:32.113Z",
+        "lastEditedDateTime": "2024-11-14T05:59:37.673Z",
+        "cells": [
+          {
+            "id": "e87ae506-af96-43f3-9f6c-f7d84292607c",
+            "columnId": "83c6d1a2-c2c7-400a-bb48-b6c43a536483",
+            "content": "4",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "3e81b673-9ab1-45c3-932e-955d4c09678e",
+            "columnId": "531dcef2-5f65-4934-a038-df2ef890953e",
+            "content": "Zhafran ",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "04a3d36f-5b59-478c-aff2-677057e559ff",
+            "columnId": "88fba912-6bac-490a-99a9-8db4986381bb",
+            "content": "3",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "81f17c2b-23a8-4f4f-a709-aa1bab869b12",
+            "columnId": "b33bc11f-2004-49ee-a34f-717cc6917cf5",
+            "content": "Mencatat Materi",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.15.11"
+}
