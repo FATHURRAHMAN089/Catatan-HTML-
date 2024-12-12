@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "KELOMPOK 3/3.(Revisi)Ujian Akhir (Agregasi lanjutan dan Relasi).md",
+                "file": "KELOMPOK 3/4.(Revisi)Ujian Akhir (Agregasi lanjutan dan Relasi) Kantin_Sekolah.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.(Revisi)Ujian Akhir (Agregasi lanjutan dan Relasi)"
+              "title": "4.(Revisi)Ujian Akhir (Agregasi lanjutan dan Relasi) Kantin_Sekolah"
             }
           }
         ],
@@ -197,6 +197,18 @@
         "id": "deb3a0d76a35ac23",
         "type": "leaf",
         "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "0d5b2cf3d5250758",
+        "type": "leaf",
+        "state": {
           "type": "mk-path-view",
           "state": {},
           "icon": "layout-grid",
@@ -271,6 +283,7 @@
   },
   "active": "93babfbcea317912",
   "lastOpenFiles": [
+    "KELOMPOK 3/asets/B.png",
     "KELOMPOK 3/asets/x.jpg",
     "KELOMPOK 3/asets/p.jpg",
     "KELOMPOK 3/1.Laporan GROUP BY & HAVING.md",
@@ -298,7 +311,6 @@
     "Catatan_PHP/Aasets/Variabel.png",
     "Catatan_PHP/Aasets/Screenshot 2024-06-24 175159.png",
     "Catatan_PHP/Aasets/echo.png",
-    "Catatan_PHP/Aasets/Screenshot 2024-06-24 174844.png",
     "Web HTML/tantanganposition.html",
     "Web HTML/order_bunga.html",
     "Web HTML/list_bunga.html",
